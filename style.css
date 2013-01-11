@@ -137,7 +137,6 @@ sidebar
     padding: 0;
     margin: 0;
     width: 400px;
-    color:#d6d6d6;
 }
 
 #featured .date {
@@ -153,7 +152,6 @@ sidebar
     height: 200px;
     display: block;
     width: 400px;
-    background: #dfefff;
     float:left;
     margin-left:50px;
     margin-top:20px;
@@ -174,7 +172,6 @@ sidebar
 #main {
     width : 620px;
     float : left;
-    background: #dfefff;
 }
 
 #main .post {
@@ -230,7 +227,62 @@ sidebar
 
 #main #post_nav .newer_post {
     background: url(newer_post.png) no-repeat;
+    height: 34px;
+    width: 104px;
+    display: block;
+    float: left;
 }
+#main #post_nav .newer_post p {
+    font-size: 15px;
+    padding-left:16px;
+    padding-top:7px;
+    margin:0px;
+}
+#main #post_nav .older_post {
+    background: url(older_post.png) no-repeat;
+    height: 34px;
+    width: 104px;
+    float: right;
+}
+#main #post_nav .older_post p {
+    font-size: 15px;
+    padding-left:9px;
+    padding-top:7px;
+    margin:0px;
+}
+
+#footer p, a, h2, h3, h4, h5{
+    color: white;
+    padding:0;
+    margin:0;
+}
+
+#footer .copy_r {
+    float: left;
+    margin: 20px;
+}
+#footer #f_nav {
+    padding: 20px;
+    margin-left: 50px;
+}
+#footer .f_logo{
+    float:left;
+    padding-left: 20px;
+}
+#footer .f_logo p {
+    font-size: 15px;
+}
+#footer .f_sns ul li {
+    display: inline;
+}
+#footer .f_sns .f_google {
+    background: url(google.png) no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+
+
 
 
 
