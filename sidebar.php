@@ -1,3 +1,4 @@
+    
     <div id="sidebar">
         <form id="search_bar" method="post" action="/">
             <div>

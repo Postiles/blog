@@ -13,12 +13,11 @@ $this->need('header.php');
             <div class="post_header">
                 <div class="post_date">
                     <div style="width:42px;height:42px;">
-                        <p>DEC<p>
-                        <p>10<p>
+                        <?php $this->date('<p>M</p><p>j</p>');?>
                     </div>
                 </div>
                 <h2 class="post_title"><a href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a></h2>
-                <h4 class="author"> Posted <a href="<?php $this->author(); ?>"></a></h4>
+                <h4 class="author"> Posted by <a href="<?php $this->author(); ?>"></a></h4>
             </div>
             <div class="post_content">
                 <p class="article">

@@ -33,6 +33,9 @@ body {
 #header_wrap a{
     text-decoration:none;
 }
+#header_wrap a:hover {
+    text-decoration:underline;
+}
 #header {
     height: 89px;
     width: 920px;
@@ -105,8 +108,33 @@ sidebar
 
 #search_bar  {
     width: 260px;
-    height: 25px;
-    margin-bottom:30px;
+    height: 22px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border: solid 2px #024d61;
+}
+#search_bar input.text {
+    float:left;
+    display:block;
+    line-height:14px;
+    height:14px;
+    padding:4px 0;
+    margin:0px;
+    border:0 none;
+    font-size:14px;
+    width:220px;
+    background: #f5f5f5;
+}
+#search_bar input.submit {
+    float:right;
+    display:block;
+    width :33px;
+    height:22px;
+    background: url(search.png);
+    padding:0;
+    margin:0;
+    border:0 none;
+    font-size:0px;
 }
 
 .wgbg {
@@ -118,6 +146,7 @@ sidebar
 }
 #widget1 .widget_title {
     font-weight:bold;
+    margin-bottom:18px;
 }
 #widget1 .wgbg {
     height: 42px;
@@ -158,6 +187,9 @@ sidebar
     text-decoration:none;
     color:#CCC;
 }
+#widget1 .widget_content a:hover {
+    text-decoration:underline;
+}
 #widget1 .widget_content {
     color: #CCC;
     margin-top: -29px;
@@ -165,6 +197,20 @@ sidebar
 #widget2 .widget_content, #widget3 .widget_content {
     color: #024d61;
     margin-top: -10px;
+}
+#widget2 .widget_content a {
+    color: #024d61;
+    text-decoration:none;
+}
+#widget2 .widget_content a:hover {
+    text-decoration:underline;
+}
+#widget3 .widget_content a {
+    color: #024d61;
+    text-decoration:none;
+}
+#widget3 .widget_content a:hover {
+    text-decoration:underline;
 }
 .widget_content .widget_title {
     font-weight: bold;
@@ -279,8 +325,14 @@ sidebar
 
 .post .post_title {
     padding-left:8px;
+}
+.post .post_title a {
     color:#024d61;
     font-size:18px;
+    text-decoration:none;
+}
+.post .post_title a:hover {
+    text-decoration:underline;
 }
 .post .author {
     padding-left:8px;
@@ -321,6 +373,10 @@ sidebar
     margin-left: 5px;
     background:#e7e7e7;
     color:#07668e;
+    text-decoration:none;
+}
+.post .post_item a:hover {
+    text-decoration:underline;
 }
 .post_cut {
     background: url(post_cut.png) no-repeat;
@@ -394,7 +450,8 @@ sidebar
     margin-left: 50px;
 }
 #footer #f_nav a {
-    margin-left: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
     padding-left:4px;
     padding-right:4px;
 }
