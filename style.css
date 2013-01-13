@@ -1,3 +1,10 @@
+/* ------------------------------------
+ * Typecho postile Theme
+ *
+ * @author	yufei.flyingfish@gmail.com
+ * @link	http://www.postile.com
+ * @update	2013-01-13 14:30
+ * --------------------------------- */
 
 /*
 layout
@@ -103,31 +110,40 @@ sidebar
 }
 
 .wgbg {
-    background: url(9-42-42.png) no-repeat;
+    background: url(42-51-42.png) no-repeat;
     width: 259px;
 }
 .widget {
     width: 259px;
 }
+#widget1 .widget_title {
+    font-weight:bold;
+}
 #widget1 .wgbg {
-    height: 9px;
+    height: 42px;
     background-position: 0 0;
 }
-#widget2 .wgbg {
+#widget1 . {
     height: 42px;
-    background-position: 0 -9px;
+    background-position: 0 0;
+}
+
+#widget2 .wgbg {
+    height: 51px;
+    background-position: 0 -42px;
 }
 #widget3 .wgbg {
     height: 42px;
-    background-position: 0 -51px;
+    background-position: 0 -93px;
 }
 #end_of_widgets .wgbg {
     height: 28px;
-    background-position: 0 -93px;
+    background-position: 0 -135px;
 }
 #widget1 {
     background: #024d61;
 }
+
 #widget2, #widget3 {
     background: #dfefff;
 }
@@ -138,9 +154,13 @@ sidebar
     line-height: 20px;
     padding-bottom: 9px;
 }
+#widget1 .widget_content a {
+    text-decoration:none;
+    color:#CCC;
+}
 #widget1 .widget_content {
     color: #CCC;
-    margin-top: 4px;
+    margin-top: -29px;
 }
 #widget2 .widget_content, #widget3 .widget_content {
     color: #024d61;
@@ -292,7 +312,7 @@ sidebar
     display:inline;
 }
 
-.post .post_item ul li{
+.post .post_item a{
     font-size:11px;
     display: inline;
     padding-right: 5px;
@@ -308,41 +328,49 @@ sidebar
 }
 
 /*
- * post_nav
+ * page-navigator
  */
 
-#post_nav {
+.page-navigator {
+    padding:0;
+    margin:0;
     margin-top: 5px;
     margin-bottom: 42px;
     height: 32px;
+    list-style:none;
+}
+.page-navigator li a {
+    display:none;
+}
+.page-navigator li {
+    list-style:none;
 }
 
-#main #post_nav .newer_post {
+.page-navigator li a.prev {
     background: url(newer_post.png) no-repeat;
     height: 34px;
     width: 104px;
-    display: block;
+    display: block ;
     float: left;
-}
-#main #post_nav .newer_post p {
     font-size: 12px;
     padding-left:18px;
     padding-top:8px;
     color: #FFF;
     margin:0px;
+    text-decoration:none;
 }
-#main #post_nav .older_post {
+.page-navigator li a.next {
     background: url(older_post.png) no-repeat;
     height: 34px;
     width: 104px;
+    display:block;
     float: right;
-}
-#main #post_nav .older_post p {
     font-size: 12px;
     padding-left:9px;
     padding-top:8px;
     color: #FFF;
     margin:0px;
+    text-decoration:none;
 }
 
 
