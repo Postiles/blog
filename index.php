@@ -5,8 +5,11 @@
 
 $this->need('header.php');
 
-//$this->need('featured.php');
+if($this->is('index')){
+    $this->need('featured.php');
+}
 ?>
+
     <div id="main">
         <?php while($this->next()): ?>
         <div class="post"> 
@@ -21,7 +24,7 @@ $this->need('header.php');
             </div>
             <div class="post_content">
                 <p class="article">
-                <?php $this->content('Continue Reading...'); ?>
+                <?php $this->content('Read More'); ?>
                 </p>
             </div>
             <div class="post_item">

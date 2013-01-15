@@ -249,6 +249,12 @@ sidebar
     padding: 0;
     margin: 0;
     width: 400px;
+    font-weight:bold;
+}
+#featured h3 a{
+    color:#024d61;
+    font-size:18px;
+    text-decoration:none;
 }
 
 #featured p.date{
@@ -259,7 +265,7 @@ sidebar
 .cut_line {
     background: url(cut_line.png) no-repeat;
     width:920px;
-    height:20px;
+    height:13px;
 }
 
 #featured .content{
@@ -273,10 +279,6 @@ sidebar
 
 #featured .content p{
     width: 400px;
-}
-
-#featured button.bt_more {
-    margin-top: 23px;
 }
 
 #featured .f_image {
@@ -491,9 +493,31 @@ sidebar
 }
 
 
+/*
+ * button
+ */
 
-
-
+.bt_more {
+    margin-top:20px;
+    background:none;
+    text-decoration:none;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #024d61;
+    height:26px;
+    width:61px;
+    cursor:pointer;
+}
+.bt_more a {
+    font-size:12px;
+    text-decoration:none;
+    color:#024d61;
+    cursor:pointer;
+    padding:3px;
+    padding-top:4px;
+    float:left;
+}
 
 /*
 misc
