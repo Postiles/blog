@@ -4,6 +4,8 @@
     $sticky_db = Typecho_Db::get();
     $result = $sticky_db->fetchRow($sticky_db->select()->from('table.contents')->where('table.contents.cid = ?', $sticky_cid));
 
+    $sticky_picture_link = Typecho_Widget::widget('Widget_Options')->plugin('Sticky')->sticky_picture_link;
+
     $value = Typecho_Widget::widget('Widget_Abstract_Contents')->push($result);
 
     //var_dump($value);
@@ -24,7 +26,7 @@
                 </p>
             </div>
             <div class="f_image">
-                <img src="http://143.89.45.82/typecho/usr/themes/postile/featured_demo.jpg" alt="demo_picture" border="7" />
+            <img src="<?php echo $sticky_picture_link;?>" alt="demo_picture" border="7" />
             </div>
         </div><!-- end of post -->
     </div><!-- end of featured -->

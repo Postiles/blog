@@ -1,16 +1,6 @@
-<?php
-/* customized theme for postile
- */
+<?php $this->need('header.php'); ?>
 
-
-$this->need('header.php');
-
-if($this->is('index')){
-    $this->need('featured.php');
-}
-?>
     <div id="main">
-        <?php while($this->next()): ?>
         <div class="post"> 
             <div class="post_header">
                 <div class="post_date">
@@ -22,23 +12,19 @@ if($this->is('index')){
                 <h4 class="author"> Posted by <a href="<?php $this->author(); ?>"></a></h4>
             </div>
             <div class="post_content">
-                <p class="article">
-                <?php $this->content('Read More'); ?>
-                </p>
+            <?php $this->content(); ?>
             </div>
             <div class="post_item">
                 <p><?php _e('Category')?></p>
                 <?php $this->category(','); ?>
             </div>
-            <div class="post_cut"></div>
+            <div class="bt_back clear">
+                <a href="http://143.89.45.82/typecho">Back</a>
+            </div>
         </div><!-- end of post -->
-
-        <?php endwhile; ?>  
-
-        <?php $this->pageNav("NEWER POSTS", "OLDER POSTS", "0", ""); ?>
     </div><!-- end of main -->
 
 
 <?php $this->need('sidebar.php'); ?>
-</div><!-- end of body -->
+</div><!-- end of div id="body" -->
 <?php $this->need('footer.php');

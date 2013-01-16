@@ -37,7 +37,11 @@ class Sticky_Plugin implements Typecho_Plugin_Interface
         $sticky_cid = new Typecho_Widget_Helper_Form_Element_Text(
           'sticky_cid', NULL, '',
           '置顶文章的 cid');
+        $sticky_picture_link = new Typecho_Widget_Helper_Form_Element_Text(
+          'sticky_picture_link', NULL, '',
+          '置顶文章的附图');
         $form->addInput($sticky_cid);
+        $form->addInput($sticky_picture_link);
     }
 
     /**
