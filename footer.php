@@ -7,32 +7,31 @@
             </div>
             <div id="f_nav">
                 <p>
-                    <a href="#"> About Us </a>
+                    <a href="#">About Us</a>
                     |
-                    <a href="#"> Contact </a>
+                    <a href="#">Contact</a>
                     |
-                    <a href="#"> Blog </a>
+                    <a href="#">Blog</a>
                     |
-                    <a href="#"> Status </a>
+                    <a href="#">Status</a>
                     |
-                    <a href="#"> API </a>
+                    <a href="#">API</a>
                     |
-                    <a href="#"> Business </a>
+                    <a href="#">Business</a>
                     |
-                    <a href="#"> Help </a>
+                    <a href="#">Help</a>
                     |
-                    <a href="#"> Jobs </a>
+                    <a href="#">Jobs</a>
                     |
-                    <a href="#"> Terms </a>
+                    <a href="#">Terms</a>
                     |
-                    <a href="#"> Privacy </a>
+                    <a href="#">Privacy</a>
                 </p>
             </div>
         </div>
         <div class="clear">
             <div class="f_logo">
-                <h2>POSTILES</h2>
-                <p>Ideas for Linking</p>
+                <img src="http://127.0.0.1/typecho/usr/themes/postile/footer_logo.png" />
             </div>
             <div class="f_sns">
                 <ul>
