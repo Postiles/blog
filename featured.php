@@ -16,8 +16,10 @@
         <div class="cut_line"></div>
         <div class="post">
             <div class="content">
-                <h3><a href="<?php echo $value["permalink"]; ?>"><?php echo $value["title"];?></a></h3> 
-                <p class="date"><?php echo date("F j, Y",$value["date"]->timeStamp);?></p>
+                <div class="featured_title" >
+					<h3><a href="<?php echo $value["permalink"]; ?>"><?php echo $value["title"];?></a></h3> 
+					<p class="date"><?php echo date("F j, Y",$value["date"]->timeStamp);?></p>
+				</div>
                 <br />
                 <p class="article"> 
                 <?php 

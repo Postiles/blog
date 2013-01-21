@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <h2 class="post_title"><a href="<?php $this->permalink(); ?>"><?php $this->title(); ?></a></h2>
-                <h4 class="author"> Posted by <a href="<?php $this->author(); ?>"></a></h4>
+                <h4 class="author"> Posted by <?php $this->author(); ?></h4>
             </div>
             <div class="post_content">
             <?php $this->content(); ?>
