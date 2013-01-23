@@ -306,7 +306,7 @@ sidebar
     width: 400px;
 }
 #featured .content .article  a{font-style:italic; text-decoration:none; border-bottom: 1px dotted #0985ad;}
-#featured .content .article  a:link {color:#0985ad;}
+#featured .content .article a:link {color:#0985ad;}
 #featured .content .article a:visited {border-bottom: 1px dotted #919191; color:#919191;}
 #featured .content .article a:active  {color:#919191;}
 
@@ -571,13 +571,15 @@ sidebar
     cursor:pointer;
 }
 .bt_more a {
-    font-size:12px;
-    text-decoration:none;
-    color:#024d61;
-    cursor:pointer;
-    padding:3px;
-    padding-top:4px;
-    float:left;
+    font-size:11px !important;
+    text-decoration:none !important;
+    color:#024d61 !important;
+    cursor:pointer !important;
+    padding:3px !important;
+    padding-top:5px !important;
+    float:left !important;
+    border-bottom: 0 !important;
+    font-style: normal !important;
 }
 .bt_back {
     margin-top:20px;

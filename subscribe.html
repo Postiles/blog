@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="subscription_style.css" />
+
+</head>
+<body>
+    <div id="content">
+        <div id="nav">
+            <ul>
+                <li><a href="#">CONCEPT</a></li>
+                <li><a href="#">BULLETIN</a></li>
+                <li><a href="#">TEAM</a></li>
+            </ul>
+        </div>
+
+        <div id="title_words">
+            <p> A brand new social network to link everyone's thoughts and to be creative </p>
+            <h1> COMMING SOON </h1>
+        </div>
+
+        <div id="logo">
+        </div>
+
+        <div id="sub_form">
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <div id="emailText">
+                    <input placeholder="your email address here" type="text" name="inputs[email]" value="" />
+                </div>
+                <div id="sBt">
+                    <input type="submit" name="sbmt" value="GO" />
+                </div>
+            </form>
+            <h4> SUBSCRIBE FOR UPDATES </h4>
+        </div>
+    </div>
+    <div id="bLine"></div>
+</body>
+
