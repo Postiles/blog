@@ -10,6 +10,8 @@
 <html>
 <head>
 <title>Subscribe to Postile</title>
+<script type="text/javascript" src="window.js"></script>
+<link rel="stylesheet" href="subscription_style.css" />
 </head>
 <body>
 <?php
@@ -81,14 +83,29 @@
   /* OTHERWISE, "GET" REQUEST DISPLAYS FORM */  
   ?>
   
-  <!-- BEGIN: Newsletter Subscription Form -->
-  <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-  
-    <p>Email<br /><input type="text" name="inputs[email]" value="" /></p>
-    <input type="submit" name="sbmt" value="Subscribe" />
-  
-  </form>
-  <!-- ENOF: Newsletter Subscription Form -->
-  
+    <div id="bLine"></div>
+    <div id="content">
+        <div id= header>
+            <div id="nav">
+                <p><a href="#">CONCEPT</a></p>
+                <p><a href="http://143.89.45.82/typecho">BULLETIN</a></p>
+                <p><a href="#">TEAM</a></p>
+            </div>
+        </div>
+
+        <div id="logo">
+        </div>
+
+        <div id="sub_form">
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <div id="emailText">
+                    <input placeholder="your email address here" type="text" name="inputs[email]" value="" />
+                </div>
+                <div id="sBt">
+                    <input type="submit" name="sbmt" value="GO" />
+                </div>
+            </form>
+        </div>
+    </div>
   </body>
   </html>

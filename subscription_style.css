@@ -27,14 +27,12 @@ body {
 }
 
 #bLine {
-    margin : 0;
     background: #024d62; 
-    height : 10px;
-    top: 400px;
+    height : 9px;
     left: -1%;
     position: absolute;
     display: block;
-    width :110%;
+    width :101%;
 }
 
 
@@ -42,30 +40,41 @@ body {
 /* content */
 #content {
     margin: auto;
-    position: relative;
     width: 1020px;
+    height: 586px;
+    position: absolute;
+    background: url(whole_main.png) no-repeat;
 }
-
-#nav {
+#header {
     position: absolute;
     left: 30px;
-    height: 311px;
-    width: 117px;
-}
-#nav ul {
-    margin-top: 100px;
+    height: 500px;
+    width: 100px;
 }
 
-#title_words {
+#header #nav {
     position: absolute;
-    left:207px;
-    top:84px;
+    left: 25px;
+    height: 311px;
+    width: 117px;
+    margin-top: 100px;
+    text-align:center;
+}
+#header #nav p {
+    color: #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#header #nav p a {
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #sub_form {
     position: absolute;
-    left:440px;
-    top:556px;
+    left:435px;
+    top:405px;
 }
 
 #sub_form #sBt,
@@ -74,32 +83,41 @@ body {
 }
 
 #sub_form #emailText input {
-    line-height:14px;
+    line-height:18px;
     height:45px;
     margin:0px;
     border:0 none;
-    font-size:14px;
-    width:220px;
-    background: #6d95a1;
-    width:300px;
+    font-size:18px;
+    background: rgba(107,149,161,0.8);
+    width:260px;
+    margin-right:13px;
+    padding-right:20px;
+    padding-left:20px;
+    color:#fff;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #ffffff;
+    text-align:right;
+    font-size:18px;
 }
 input:-moz-placeholder, textarea:-moz-placeholder {
     color: #ffffff;
     text-align:right;
+    font-size:18px;
 }
 
 #sub_form #sBt input {
     margin-top:20px;
     background:none;
     text-decoration:none;
-    border: 12px solid #024d61;
-    height:69px;
-    width:69px;
+    border: 10px solid #024d61;
+    height:55px;
+    width:55px;
     cursor:pointer;
+    font-size: 18px;
+    color:#024d61;
+    background:#fff;
 }
 
 
