@@ -71,7 +71,7 @@ body {
     padding-bottom: 5px;
 }
 
-#sub_form {
+div#sub_form {
     position: absolute;
     left:435px;
     top:405px;
@@ -83,6 +83,8 @@ body {
 }
 
 #sub_form #emailText input {
+    position: absolute;
+    top: 24px;
     line-height:18px;
     height:45px;
     margin:0px;
@@ -94,6 +96,25 @@ body {
     padding-right:20px;
     padding-left:20px;
     color:#fff;
+}
+div#notice {
+    display:none;
+    position: absolute;
+    top: 24px;
+    line-height:18px;
+    height:45px;
+    font-size:18px;
+    background: rgba(107,149,161,0.8);
+    width:260px;
+    margin-right:13px;
+    padding-right:20px;
+    padding-left:20px;
+    color:#fff;
+}
+
+#notice p {
+    margin:15px;
+    margin-left:85px;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -107,7 +128,10 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     font-size:18px;
 }
 
-#sub_form #sBt input {
+#sub_form #sBt {
+    position: absolute;
+    top:0px;
+    left:318px;
     margin-top:20px;
     background:none;
     text-decoration:none;
