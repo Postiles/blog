@@ -1,0 +1,55 @@
+/* css for inline_comment */
+p {
+  padding: 0px;
+  margin: 0px; }
+
+.inl_comment-wrapper {
+  font-size: 12px;
+  width: 230px; }
+  .inl_comment-wrapper .input_up {
+    background: url(inline_input_19_30.png) no-repeat;
+    height: 19px;
+    width: 230px; }
+  .inl_comment-wrapper input {
+    margin-left: 17px;
+    margin-top: -14px;
+    width: 205px;
+    border: 0px none;
+    height: 15px; }
+  .inl_comment-wrapper .input_low {
+    background: url(inline_input_19_30.png) no-repeat;
+    background-position: 0 -19px;
+    height: 27px;
+    width: 230px;
+    margin-top: -5px; }
+    .inl_comment-wrapper .input_low .nav_up {
+      margin-top: 11px;
+      margin-left: 10px;
+      width: 110px;
+      height: 15px;
+      float: left; }
+    .inl_comment-wrapper .input_low .nav_down {
+      margin-top: 11px;
+      width: 110px;
+      height: 15px;
+      float: right; }
+  .inl_comment-wrapper .inl_comment {
+    margin-left: 10px;
+    background: #f1f1f6; }
+    .inl_comment-wrapper .inl_comment .past_comment {
+      margin-left: 8px;
+      margin-right: 8px; }
+      .inl_comment-wrapper .inl_comment .past_comment .name {
+        color: #024d61;
+        float: left;
+        margin-top: 6px;
+        margin-bottom: 6px; }
+      .inl_comment-wrapper .inl_comment .past_comment .time {
+        float: right;
+        color: #000;
+        margin-top: 6px; }
+      .inl_comment-wrapper .inl_comment .past_comment .comment {
+        clear: both;
+        padding-bottom: 6px; }
+      .inl_comment-wrapper .inl_comment .past_comment .main-color {
+        color: #024d61; }
