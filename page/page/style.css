@@ -1,0 +1,186 @@
+/* this file is the stylesheet for page.html in sass */
+/* layout */
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px; }
+
+#header {
+  width: 100%;
+  height: 19px;
+  background: url(header_wrapper.png);
+  background-repeat: repeat-x; }
+
+#body {
+  position: relative;
+  margin: 0 auto;
+  width: 1165px;
+  margin-top: 20px;
+  /* how to deal with this problem? adjust according to the windows at the very beginning without javascript */ }
+  #body #nav {
+    position: absolute;
+    width: 45px;
+    height: 100%; }
+    #body #nav .up {
+      position: absolute;
+      background: url(page_up.png);
+      height: 45px;
+      width: 45px;
+      left: 0;
+      top: 43px; }
+    #body #nav .down {
+      position: absolute;
+      background: url(page_down.png);
+      height: 45px;
+      width: 45px;
+      left: 0;
+      bottom: 43px; }
+  #body #page {
+    margin-left: 81px;
+    width: 530px;
+    float: left; }
+    #body #page .upBound {
+      background: url(page_upper_bound.png);
+      width: 530px;
+      height: 25px; }
+    #body #page .lowBound {
+      position: absolute;
+      background: #024d62;
+      background: url(page_lower_bound.png);
+      width: 530px;
+      height: 25px;
+      bottom: 22px; }
+    #body #page #main {
+      margin: 0 auto;
+      width: 470px;
+      overflow: scroll; }
+      #body #page #main .author {
+        margin-top: 17px;
+        margin-bottom: 17px; }
+        #body #page #main .author p {
+          margin: 0px;
+          padding: 0px; }
+      #body #page #main .page_title {
+        color: #538592;
+        margin-top: 0px; }
+  #body #sidebar {
+    float: left;
+    width: 416px; }
+    #body #sidebar .featured_wrapper .widget1 {
+      width: 382px;
+      height: 64px;
+      background: url(featured_comment.png) no-repeat;
+      background-position: 0 0; }
+    #body #sidebar .featured_wrapper .widget2 {
+      width: 382px;
+      height: 51px;
+      background: url(featured_comment.png) no-repeat;
+      background-position: 0 -64px; }
+    #body #sidebar .featured_wrapper .featured {
+      margin-left: 22px;
+      width: 360px;
+      background: #024d62; }
+    #body #sidebar .featured_wrapper .comment_input {
+      margin-top: -41px;
+      margin-left: 83px; }
+      #body #sidebar .featured_wrapper .comment_input .name {
+        color: #024d62;
+        font-weight: bold; }
+      #body #sidebar .featured_wrapper .comment_input input {
+        background: #f5f5f5;
+        border: 0px none;
+        width: 255px; }
+    #body #sidebar .featured_wrapper img {
+      margin-top: -14px;
+      margin-left: 10px;
+      width: 50px;
+      height: 50px;
+      float: left; }
+    #body #sidebar .general_comment {
+      margin-top: 20px;
+      padding-bottom: 13px;
+      margin-left: 32px;
+      display: block;
+      width: 382px; }
+      #body #sidebar .general_comment img {
+        width: 50px;
+        height: 50px;
+        float: left; }
+      #body #sidebar .general_comment .name {
+        color: #024d62;
+        font-weight: bold; }
+      #body #sidebar .general_comment .com {
+        width: 270px;
+        margin-left: 71px;
+        margin-top: -3px; }
+        #body #sidebar .general_comment .com p {
+          display: inline; }
+    #body #sidebar #side_wrapper {
+      background: url(side_wrapper.png);
+      height: 25px;
+      width: 416px;
+      bottom: 22px;
+      position: absolute; }
+  #body #atpopup_wrapper {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    width: 164px; }
+    #body #atpopup_wrapper .popup_pointer {
+      background: url(popup_pointer.png);
+      width: 164px;
+      height: 7px;
+      margin: 0px;
+      padding: 0px; }
+    #body #atpopup_wrapper #atpopup {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      border: 2px solid #008299; }
+      #body #atpopup_wrapper #atpopup .atperson_selected {
+        background: #008299 !important; }
+        #body #atpopup_wrapper #atpopup .atperson_selected .info .name {
+          color: #fff !important; }
+        #body #atpopup_wrapper #atpopup .atperson_selected .info .rel {
+          color: #b0d0b4 !important; }
+      #body #atpopup_wrapper #atpopup .atperson, #body #atpopup_wrapper #atpopup .atperson_selected {
+        background: #fff;
+        height: 40px; }
+        #body #atpopup_wrapper #atpopup .atperson .at_profile, #body #atpopup_wrapper #atpopup .atperson_selected .at_profile {
+          margin: 5px;
+          float: left; }
+        #body #atpopup_wrapper #atpopup .atperson .info, #body #atpopup_wrapper #atpopup .atperson_selected .info {
+          padding-top: 5px; }
+          #body #atpopup_wrapper #atpopup .atperson .info .name, #body #atpopup_wrapper #atpopup .atperson_selected .info .name {
+            color: #537cbe;
+            margin: 0px;
+            margin-left: 45px;
+            padding: 0px;
+            font-size: 10px;
+            font-weight: bold; }
+          #body #atpopup_wrapper #atpopup .atperson .info .rel, #body #atpopup_wrapper #atpopup .atperson_selected .info .rel {
+            margin: 0px;
+            margin-left: 45px;
+            padding: 0px;
+            font-size: 10px;
+            color: #000; }
+
+#footer_wrapper {
+  clear: both;
+  position: absolute;
+  width: 100%;
+  height: 38px;
+  background: url(footer_wrapper.png);
+  background-repeat: repeat-x; }
+  #footer_wrapper #btClose {
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    height: 38px;
+    background: #024d62;
+    width: 302px;
+    color: #fff;
+    border: 0px none;
+    font-size: 24px; }

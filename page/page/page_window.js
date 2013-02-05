@@ -1,4 +1,4 @@
-/* this file is for setting the style for subscribe file */
+/* this file is for setting the style for page window */
 
 window.onload = function(){
     adjust();
@@ -20,17 +20,14 @@ var adjust = function(){
          winW = window.innerWidth;
           winH = window.innerHeight;
     }
-    var content = document.getElementById('content');
-    var nWidth = (winW-1024)/2;
-    var nHeight = (winH-586)/2 - 1;
-    content.style.top = nHeight + "px";
-    content.style.left = nWidth + "px";
-    //content.style.top = '800px';
 
-    var bLine = document.getElementById("bLine");
-    var nHeight = (winH-10)/2;
-    //bLine.style.top = nWidth + "px";
-    bLine.style.top = nHeight + 'px';
+    var body = document.getElementById('body');
+    var nHeight = winH-120;
+    body.style.height = nHeight + 'px';
+
+    var page_content = document.getElementById('page_content');
+    var pageH = nHeight - 185;
+    page_content.style.height = pageH + 'px';
 }
 
 window.onresize = function(event){

@@ -7,7 +7,6 @@
 <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
-<
 <link rel="stylesheet" href="subscription_style.css" />
 <script type="text/javascript" src="window.js"></script>
 <script type="text/javascript" src="success.js"></script>
@@ -38,4 +37,4 @@
         </div>
     </div>
   </body>
-  </html>
+</html>

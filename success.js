@@ -1,7 +1,6 @@
 /* this file is for success subscription */
 
 $(document).ready(function (){
-    thankyou();
     $('#sBt').click(function() {
         var email = $("#emailText input").val();
         console.log(email);
