@@ -20,7 +20,7 @@ pre ol, pre ul{
 }
 ul, ol, dl{
 	font-size: 14px;
-	line-height: 22px;
+	line:height: 22px;
 	color:#024d61;
 }
 mark{
@@ -35,7 +35,7 @@ blockquote{
 	font-family: 'Oxygen', sans-serif;
 	font-size:14px;
 	font-weight:400;
-	background-image:url(quotebg.png);
+	background-image:url(img/quotebg.png);
 	background-repeat:no-repeat;
 	color:#0985ad;
 	padding-left: 28px;
@@ -56,7 +56,7 @@ body {
 }
 #header_wrap {
     height: 89px;
-    background: #024d61 url(header.png) center no-repeat;
+    background: #024d61 url(img/header.png) center no-repeat;
 }
 #header_wrap a{
     text-decoration:none;
@@ -84,13 +84,13 @@ body {
 }
 #footer_wrap {
     height: 176px;
-    background: url(footer_wrap.png);
+    background: url(img/footer_wrap.png);
 }
 #footer {
     width: 920px;
     height: 176px;
     padding: 0 90px;
-    background: url(footer.png);
+    background: url(img/footer.png);
     margin: 0 auto;
 }
 
@@ -158,7 +158,7 @@ sidebar
     display:block;
     width :33px;
     height:22px;
-    background: url(search.png);
+    background: url(img/search.png);
     padding:0;
     margin:0;
     border:0 none;
@@ -166,7 +166,7 @@ sidebar
 }
 
 .wgbg {
-    background: url(42-51-42.png) no-repeat;
+    background: url(img/42-51-42.png) no-repeat;
     width: 259px;
 }
 .widget {
@@ -288,7 +288,7 @@ sidebar
 }
 
 .cut_line {
-    background: url(cut_line.png) no-repeat;
+    background: url(img/cut_line.png) no-repeat;
     width:920px;
     height:13px;
 }
@@ -359,7 +359,7 @@ sidebar
 }
 
 .post .post_date {
-    background: url(post_pointer.png) no-repeat;
+    background: url(img/post_pointer.png) no-repeat;
     float: left;
     display: block;
     width: 70px;
@@ -441,7 +441,7 @@ sidebar
     text-decoration:underline;
 }
 .post_cut {
-    background: url(post_cut.png) no-repeat;
+    background: url(img/post_cut.png) no-repeat;
     height: 15px;
 }
 
@@ -465,7 +465,7 @@ sidebar
 }
 
 .page-navigator li a.prev {
-    background: url(newer_post.png) no-repeat;
+    background: url(img/newer_post.png) no-repeat;
     height: 34px;
     width: 104px;
     display: block ;
@@ -478,7 +478,7 @@ sidebar
     text-decoration:none;
 }
 .page-navigator li a.next {
-    background: url(older_post.png) no-repeat;
+    background: url(img/older_post.png) no-repeat;
     height: 34px;
     width: 104px;
     display:block;
@@ -538,7 +538,7 @@ sidebar
 }
 
 #footer .f_sns .f_google {
-    background: url(google.png) no-repeat;
+    background: url(img/google.png) no-repeat;
     height: 100px;
     width: 100px;
 }

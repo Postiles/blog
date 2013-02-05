@@ -28,6 +28,9 @@
             <div id="notice">
                 <p>Thank you</p>
             </div>
+            <div id="invalid">
+                <p>Please provide a valid email address</p>
+            </div>
             <div id="emailText">
                 <input placeholder="your email address here" type="text" name="inputs[email]" value="" />
             </div>
