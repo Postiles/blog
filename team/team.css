@@ -1,0 +1,97 @@
+/*
+general
+*/
+p,a,h1,h2,h3,h4,h5{
+    padding:0;
+    margin:0;
+}
+pre ol, pre ul{
+	font-size: 12px;
+	line-height: 17px;
+}
+ul, ol, dl{
+	font-size: 14px;
+	line:height: 22px;
+	color:#024d61;
+}
+mark{
+	background-color:#e7e7e7;
+	border-radius: 3px;
+	padding: 0px 2px 0px 2px;
+	color:#024d61;
+}
+blockquote{
+	width: 80%;
+	margin:20px auto 30px auto;
+	font-family: 'Oxygen', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	background-image:url(../img/quotebg.png);
+	background-repeat:no-repeat;
+	color:#0985ad;
+	padding-left: 28px;
+	padding-top: 14px
+}
+
+/* layout */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+}
+#header_wrap {
+    height: 89px;
+    background: #024d61 url(../img/header.png) center no-repeat;
+}
+#header_wrap a{
+    text-decoration:none;
+}
+#header_wrap a:hover {
+    text-decoration:underline;
+}
+#header {
+    height: 89px;
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+/*
+header
+*/
+
+h1#site_title {
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    left: 0;
+    bottom: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+p#header_nav {
+    height: 14px;
+    line-height: 22px;
+    font-size: 15px;
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    bottom: 16px;
+    right: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+#header_nav a {
+    color:#FFF;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
