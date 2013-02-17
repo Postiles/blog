@@ -149,10 +149,10 @@ p#header_nav {
 }
 
 #peoples .person {
-    margin-top:30px;
+    position: relative;
+    padding-top:30px;
     margin-bottom:30px;
     height: 230px;
-    position: relative;
 }
 
 #peoples .person img.nameCN { 
@@ -161,8 +161,8 @@ p#header_nav {
     left:-20px;
 }
 #peoples .person img.profile {
-    position:absolute;
-    left:20px;
+    position: absolute;
+    left: 20px;
 }
 
 #peoples .person div.info {
@@ -172,17 +172,21 @@ p#header_nav {
 #peoples .person .dy {
     margin-top:30px;
 }
-#peoples .person .dy ul {
+#peoples .person .dy ul.social {
+    margin:0px;
     float: right;
     list-style:none;
 }
-#peoples .person .dy ul li {
+#peoples .person .dy ul.social li {
+    padding-left: 15px;
+    padding-right: 15px;
     display: inline;
 }
 #peoples .person .dy :hover {
     background: #c2cfd2;
 }
 #peoples .person p.name {
+    display: inline;
     padding-left: 30px;
     margin-top:30px;
     color: #fe6921;
@@ -191,6 +195,7 @@ p#header_nav {
     font-weight: bold;
 }
 #peoples .person p.position {
+    width: 200px;
     padding-left: 30px;
     font-size: 14px;
     color: #336f7f;
@@ -198,13 +203,15 @@ p#header_nav {
 #peoples .person .others p{
     margin-top: 28px;
     padding-left: 30px;
+    padding-bottom: 30px;
     font-size : 14px;
 }
 #peoples .person .pointer{
     position: absolute;
-    top:30px;
+    top: 63px;
     left:220px;
     background:url(img/pointer.png);
     height: 38px;
     width: 28px;
 }
+ . 
