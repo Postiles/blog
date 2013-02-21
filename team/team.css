@@ -182,7 +182,7 @@ p#header_nav {
     padding-right: 15px;
     display: inline;
 }
-#peoples .person .dy :hover {
+#peoples .person .dy:hover {
     background: #c2cfd2;
 }
 #peoples .person p.name {
