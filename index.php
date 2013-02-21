@@ -2,7 +2,7 @@
 /* customized theme for postile
  */
 
-
+error_reporting(E_ALL);
 $this->need('header.php');
 
 if($this->is('index')){
