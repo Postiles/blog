@@ -519,9 +519,10 @@ sidebar
     padding-right:3px;
 }
 #footer .f_logo{
+    background: url(img/footer_logo.png) no-repeat;
     position:relative;
     width:200px;
-    height:60px;
+    height:70px;
     float:left;
     padding-left: 20px;
 }

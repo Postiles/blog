@@ -31,7 +31,6 @@
         </div>
         <div class="clear">
             <div class="f_logo">
-                <img src="http://127.0.0.1/typecho/usr/themes/postile/footer_logo.png" />
             </div>
             <div class="f_sns">
                 <ul>
