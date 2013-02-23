@@ -44,7 +44,7 @@ body {
 }
 #header_wrap {
     height: 89px;
-    background: #024d61 url(../img/header.png) center no-repeat;
+    background: #024d61 url(img/header.png) center no-repeat;
 }
 #header_wrap a{
     text-decoration:none;

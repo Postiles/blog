@@ -17,8 +17,8 @@
         <div id= header>
             <div id="nav">
                 <p><a href="#">CONCEPT</a></p>
-                <p><a href="http://143.89.45.82/typecho">BULLETIN</a></p>
-                <p><a href="#">TEAM</a></p>
+                <p><a href="/blog/">BULLETIN</a></p>
+                <p><a href="/blog/team.html">TEAM</a></p>
             </div>
         </div>
 

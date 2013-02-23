@@ -20,7 +20,7 @@
             <a href="#"> Concept </a>
             <a href="/blog/team.html"> Team </a>
             <a href="/blog/"> Blog </a>
-            <a href="/blog/subscribe.php'; ?>"> Substribe </a>
+            <a href="/blog/subscribe.php"> Substribe </a>
         </p>
     </div>
 </div><!-- end of header_wrap -->
