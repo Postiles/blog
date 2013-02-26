@@ -171,8 +171,11 @@ p#header_nav {
 }
 #peoples .person .dy {
     margin-top:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 #peoples .person .dy ul.social {
+    padding-top: 3px;
     margin:0px;
     float: right;
     list-style:none;
@@ -180,21 +183,42 @@ p#header_nav {
 #peoples .person .dy ul.social li {
     padding-left: 15px;
     padding-right: 15px;
-    display: inline;
+    display:none;
 }
 #peoples .person .dy:hover {
     background: #c2cfd2;
 }
-#peoples .person p.name {
+#peoples .person .dy:hover ul.social li{
     display: inline;
+}
+#peoples .person .dy .social li.Google {
+    background: url(img/google_team.png) no-repeat;
+}
+#peoples .person .dy .follow {
+    float:right;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 10px;
+    display: none;
+}
+#peoples .person .dy .follow a {
+    text-decoration: none;
+    color:#336f7f;
+}
+#peoples .person .dy:hover .follow {
+    display: inline;
+}
+#peoples .person p.name {
     padding-left: 30px;
     margin-top:30px;
     color: #fe6921;
+    display: inline;
 }
 #peoples .person p.name span {
     font-weight: bold;
 }
 #peoples .person p.position {
+    display: inline;
     width: 200px;
     padding-left: 30px;
     font-size: 14px;
@@ -214,4 +238,3 @@ p#header_nav {
     height: 38px;
     width: 28px;
 }
- . 
