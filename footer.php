@@ -33,13 +33,14 @@
             <div class="f_logo">
             </div>
             <div class="f_sns">
-                <ul>
+                <!--<ul>
                     <li class="f_twitter"><a href="#">twitter</a></li>
                     <li class="f_google">google</li>
                     <li class="f_rss">RSS</li>
                     <li class="f_linkin">LINKIN</li>
                     <li class="f_facebook">facebook</li>
                 </ul>
+                -->
             </div>
         </div>
     </div><!-- end of footer -->

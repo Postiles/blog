@@ -7,7 +7,7 @@ p {
   font-size: 12px;
   width: 230px; }
   .inl_comment-wrapper .input_up {
-    background: url(inline_input_19_30.png) no-repeat;
+    background: url(img/inline_input_19_30.png) no-repeat;
     height: 19px;
     width: 230px; }
   .inl_comment-wrapper input {
@@ -17,7 +17,7 @@ p {
     border: 0px none;
     height: 15px; }
   .inl_comment-wrapper .input_low {
-    background: url(inline_input_19_30.png) no-repeat;
+    background: url(img/inline_input_19_30.png) no-repeat;
     background-position: 0 -19px;
     height: 27px;
     width: 230px;
