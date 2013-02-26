@@ -17,8 +17,8 @@
         <div id= header>
             <div id="nav">
                 <p><a href="#">CONCEPT</a></p>
-                <p><a href="/blog/">BULLETIN</a></p>
-                <p><a href="/blog/team.html">TEAM</a></p>
+                <p><a href="/">BULLETIN</a></p>
+                <p><a href="/team.html">TEAM</a></p>
             </div>
         </div>
 

@@ -13,6 +13,7 @@
 ?>
     <div id="featured" class="clear">
         <h4> Featured </h4>     
+        <a href="index.php/feed" id = "rssLink" ></a>
         <div class="cut_line"></div>
         <div class="post">
             <div class="content">

@@ -18,15 +18,9 @@
         <h1 id="site_title">POSTILE | Ideas for linking</h1>
         <p id="header_nav">
             <a href="#"> Concept </a>
-<<<<<<< HEAD
-            <a href="/blog/team.html"> Team </a>
-            <a href="/blog/"> Blog </a>
-            <a href="/blog/subscribe.php"> Substribe </a>
-=======
-            <a href="team/team.html"> Team </a>
-            <a href="index.php"> Blog </a>
-            <a href="subscribe.php"> Substribe </a>
->>>>>>> modi_blog_link
+            <a href="/team.html"> Team </a>
+            <a href="/"> Blog </a>
+            <a href="/subscribe.php"> Substribe </a>
         </p>
     </div>
 </div><!-- end of header_wrap -->
