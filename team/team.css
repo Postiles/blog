@@ -144,7 +144,7 @@ p#header_nav {
     left: 247px;
     width: 2px;
     margin-top: -30px;
-    height: 1000px;
+    height: 1500px;
     background: #c2cfd2;
 }
 
@@ -183,13 +183,12 @@ p#header_nav {
 #peoples .person .dy ul.social li {
     padding-left: 15px;
     padding-right: 15px;
-    display:none;
 }
 #peoples .person .dy:hover {
     background: #c2cfd2;
 }
 #peoples .person .dy:hover ul.social li{
-    display: inline;
+    display: inline !important;
 }
 #peoples .person .dy .social li.Google {
     background: url(img/google_team.png) no-repeat;
@@ -200,9 +199,6 @@ p#header_nav {
     margin-top: 3px;
     margin-right: 10px;
     display: none;
-}
-#peoples .person .dy .follow a {
-    text-decoration: none;
     color:#336f7f;
 }
 #peoples .person .dy:hover .follow {
@@ -230,11 +226,11 @@ p#header_nav {
     padding-bottom: 30px;
     font-size : 14px;
 }
-#peoples .person .pointer{
+#peoples .person .arrow-left{
     position: absolute;
-    top: 63px;
-    left:220px;
-    background:url(img/pointer.png);
-    height: 38px;
-    width: 28px;
+    top: 61px;
+    left:223px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #c2cfd2;
 }
