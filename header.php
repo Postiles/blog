@@ -17,10 +17,10 @@
     <div id="header">
         <h1 id="site_title">POSTILE | Ideas for linking</h1>
         <p id="header_nav">
-            <a href="#"> Concept </a>
-            <a href="/team.html"> Team </a>
-            <a href="/"> Blog </a>
-            <a href="/subscribe.php"> Substribe </a>
+            <a href="#">Concept</a>
+            <a href="/team.html">Team</a>
+            <a href="/">Blog</a>
+            <a href="/subscribe.php">Subscribe<a>
         </p>
     </div>
 </div><!-- end of header_wrap -->

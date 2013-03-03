@@ -123,7 +123,7 @@ p#header_nav {
     color: #FFF;
     font-weight: normal;
     bottom: 16px;
-    right: 50px;
+    right: 30px;
     padding: 0;
     margin: 0;
 }
@@ -139,7 +139,6 @@ sidebar
 */
 
 #search_bar  {
-    width: 260px;
     height: 22px;
     margin-top:10px;
     margin-bottom:15px;
@@ -158,17 +157,21 @@ sidebar
     width:220px;
     background: #f5f5f5;
 }
+#search_bar input.text:focus {
+    outline: none;
+}
 #search_bar input.submit {
     float:right;
-
     display:block;
     width :33px;
     height:22px;
     background: url(img/search.png);
     padding:0;
     margin:0;
+    margin-right: -2px;
     border:0 none;
     font-size:0px;
+    cursor: pointer;
 }
 
 .wgbg {
@@ -363,8 +366,8 @@ sidebar
     margin-right:8px;
 }
 .post .post_header .post_date p{
-    padding:5;
     margin:0;
+    margin-top: 1px;
     text-align:center;
     color:#FFF;
     line-height:140%;
@@ -497,7 +500,7 @@ sidebar
     display:block;
     float: right;
     font-size: 12px;
-    padding-left:9px;
+    padding-left:7px;
     padding-top:8px;
     color: #FFF;
     margin:0px;

@@ -19,7 +19,7 @@
                 <?php $this->category(','); ?>
             </div>
             <div class="bt_back clear">
-                <a href="http://143.89.45.82/typecho">Back</a>
+                <a href="javascript:history.back()">Back</a>
             </div>
         </div><!-- end of post -->
     </div><!-- end of main -->
