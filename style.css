@@ -301,9 +301,10 @@ sidebar
     color:#c5c5c5;
     font-size:14;
 }
-#featured p.article {
+#featured .article p {
     line-height:140%;
     font-size:14px;
+    padding-bottom:10px;
 }
 
 

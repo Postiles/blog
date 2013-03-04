@@ -7,8 +7,10 @@
     $sticky_picture_link = Typecho_Widget::widget('Widget_Options')->plugin('Sticky')->sticky_picture_link;
 
     $value = Typecho_Widget::widget('Widget_Abstract_Contents')->push($result);
+    $text = $value["text"];
+    $text = Typecho_Common_Paragraph::process($text);
 
-    //var_dump($value);
+    //var_dump($text);
 
 ?>
     <div id="featured" class="clear">
@@ -22,11 +24,11 @@
 					<p class="date"><?php echo date("F j, Y",$value["date"]->timeStamp);?></p>
 				</div>
                 <br />
-                <p class="article"> 
-                <?php 
-                $featured_content = explode('<!--more-->', $value["text"]);
-                echo false !== strpos($value["text"], '<!--more-->') ? $featured_content[0] . "<div class=\"bt_more clear\"><a href=\"".$value["permalink"]."\"title=\"".$value["title"]."\">Read More</a></div>" : $value["text"]; ?>
-                </p>
+                <div class = "article">
+                    <?php 
+                    $featured_content = explode('<!--more-->', $text);
+                    echo false !== strpos($text, '<!--more-->') ? $featured_content[0] . "<div class=\"bt_more clear\"><a href=\"".$value["permalink"]."\"title=\"".$value["title"]."\">Read More</a></div>" : $text; ?>
+                </div>
             </div>
             <div class="f_image">
             <img src="<?php echo $sticky_picture_link;?>" alt="demo_picture" border="7" />
