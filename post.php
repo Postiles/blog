@@ -19,12 +19,11 @@
                 <?php $this->category(','); ?>
             </div>
             <div class="bt_back clear">
-                <a href="javascript:history.back()">Back</a>
+                <a href="javascript:history.back()" class="back">Back</a>
             </div>
         </div><!-- end of post -->
     </div><!-- end of main -->
 
 
 <?php $this->need('sidebar.php'); ?>
-</div><!-- end of div id="body" -->
 <?php $this->need('footer.php');

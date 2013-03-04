@@ -8,8 +8,9 @@
         </form>
         <div id="widget1" class="widget">
             <div class="wgbg"></div>
+            <div class="widget_title"><?php _e('Recent updates'); ?></div>
             <div class="widget_content">
-            <div class="widget_title"><?php _e('Recent Updates'); ?></div>
+            
                 <ul>
                     <?php $this->widget('Widget_Contents_Post_Recent')->parse('<li><a href="{permalink}">{title}</a></li>'); ?> 
                 </ul>
