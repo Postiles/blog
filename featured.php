@@ -10,6 +10,10 @@
     $text = $value["text"];
     $text = Typecho_Common_Paragraph::process($text);
 
+    if( strlen($text) > 100 ) {
+
+    }
+
     //var_dump($text);
 
 ?>
