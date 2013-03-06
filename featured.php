@@ -9,11 +9,7 @@
     $value = Typecho_Widget::widget('Widget_Abstract_Contents')->push($result);
     $text = trim($value["text"]);
     $text = Typecho_Common_Paragraph::process($text);
-    $featured_content = implode(' ', array_slice(explode(' ', $text), 0, 50));
-
-    if( strlen($text) > 100 ) {
-
-    }
+    $featured_content = implode(' ', array_slice(explode(' ', $text), 0, 40));
 
     //var_dump($text);
     //var_dump($featured_content);
@@ -36,7 +32,7 @@
                 </div>
             </div>
             <div class="f_image">
-            <img src="<?php echo $sticky_picture_link;?>" alt="demo_picture" border="7" />
+            <img src="<?php echo $sticky_picture_link;?>" alt="demo_picture" />
             </div>
         </div><!-- end of post -->
     </div><!-- end of featured -->
