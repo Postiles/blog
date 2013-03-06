@@ -175,7 +175,6 @@ p#header_nav {
     padding-bottom: 5px;
 }
 #peoples .person .dy ul.social {
-    padding-top: 3px;
     margin:0px;
     float: right;
     list-style:none;
@@ -183,12 +182,13 @@ p#header_nav {
 #peoples .person .dy ul.social li {
     padding-left: 15px;
     padding-right: 15px;
+    display: none;
 }
 #peoples .person .dy:hover {
     background: #c2cfd2;
 }
-#peoples .person .dy:hover ul.social li{
-    display: inline !important;
+#peoples .person .dy:hover ul.social li {
+    display: inline;
 }
 #peoples .person .dy .social li.Google {
     background: url(img/google_team.png) no-repeat;
