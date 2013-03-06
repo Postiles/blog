@@ -1,5 +1,6 @@
-
-<div id="footer_wrap">
+<div id="footer_dummy"></div>
+</div>
+<div id="footer_wrap" class ="clear">
     <div id="footer">
         <div class="clear">
             <div class="copy_r">

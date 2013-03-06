@@ -7,18 +7,20 @@
     $sticky_picture_link = Typecho_Widget::widget('Widget_Options')->plugin('Sticky')->sticky_picture_link;
 
     $value = Typecho_Widget::widget('Widget_Abstract_Contents')->push($result);
-    $text = $value["text"];
+    $text = trim($value["text"]);
     $text = Typecho_Common_Paragraph::process($text);
+    $featured_content = implode(' ', array_slice(explode(' ', $text), 0, 50));
 
     if( strlen($text) > 100 ) {
 
     }
 
     //var_dump($text);
+    //var_dump($featured_content);
 
 ?>
     <div id="featured" class="clear">
-        <h4> Featured </h4>     
+        <h4> FEATURED </h4>     
         <a href="index.php/feed" id = "rssLink" ></a>
         <div class="cut_line"></div>
         <div class="post">
@@ -30,8 +32,7 @@
                 <br />
                 <div class = "article">
                     <?php 
-                    $featured_content = explode('<!--more-->', $text);
-                    echo false !== strpos($text, '<!--more-->') ? $featured_content[0] . "<div class=\"bt_more clear\"><a href=\"".$value["permalink"]."\"title=\"".$value["title"]."\">Read More</a></div>" : $text; ?>
+                    echo $featured_content . "<div class=\"bt_more clear\"><a href=\"".$value["permalink"]."\"title=\"".$value["title"]."\">Read More</a></div>" ?>
                 </div>
             </div>
             <div class="f_image">

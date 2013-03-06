@@ -3,3 +3,4 @@
 
 cp -r sub/. ../../../
 cp -r team/. ../../../
+cp -r concept/. ../../../

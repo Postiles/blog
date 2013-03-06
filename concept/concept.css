@@ -1,0 +1,202 @@
+/* css file for concept page */
+/*
+general
+*/
+p,a,h1,h2,h3,h4,h5{
+    padding:0;
+    margin:0;
+}
+pre ol, pre ul{
+	font-size: 12px;
+	line-height: 17px;
+}
+ul, ol, dl{
+	font-size: 14px;
+	line:height: 22px;
+	color:#024d61;
+}
+
+
+/* layout */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+}
+
+#header_wrap {
+    height: 89px;
+    background: #024d61 url(img/header.png) center no-repeat;
+}
+#header_wrap a{
+    text-decoration:none;
+}
+#header_wrap a:hover {
+    text-decoration:underline;
+}
+#header {
+    height: 89px;
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#general_wrapper {
+	margin-top: 28px;
+	height: 288px;
+	background: #c2cfd2;
+}
+
+h1#site_title {
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    left: 0;
+    bottom: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+p#header_nav {
+    height: 14px;
+    line-height: 22px;
+    font-size: 15px;
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    bottom: 16px;
+    right: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+#header_nav a {
+    color:#FFF;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/* for General Concept */
+
+#general {
+	position: relative;
+	height: 288;
+	padding-top:35px;
+    margin:0px auto;
+    width: 870px;
+    height: 230px;
+}
+
+#general #intro {
+	width : 420px;
+}
+
+#general #gen_background {
+	height: 224px;
+	width: 610px;
+	background: url(img/general.png) no-repeat;
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+}
+
+
+#general h3 {
+	font-family: 'Play', sans-serif;
+	font-size: 50px;
+	color: #024d61;
+}
+#general h4 {
+	font-family: 'Play', sans-serif;
+	font-size: 30px;
+	margin-left: 90px;
+	color: #70939d;
+}
+#general p {
+	margin-top: 15px;
+	font-size: 15px;
+	margin-left: 40px;
+}
+
+
+/* points */
+
+#points {
+	width: 900px;
+    margin:0px auto;
+}
+
+#points .feature_point {
+	margin-top: 60px;
+	position: relative;
+	height: 240px;
+}
+#points .feature_point h3 {
+	font-size: 30px;
+	font-family: 'Play', sans-serif;
+	color: #024d61;
+	margin-bottom: 5px;
+}
+#points .feature_point h5 {
+	font-size: 25px;
+	font-family: 'Play', sans-serif;
+	color: #8ea2a8;
+	margin-bottom: 25px;
+}
+#points .feature_point .text_l {
+	margin-top: 10px;
+	width : 560px;
+	float: left;
+}
+#points .feature_point .text_r {
+	margin-top: 10px;
+	width : 560px;
+	float: right;
+}
+
+#points .feature_point p {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#points .feature_point .vline_l {
+	position: absolute;
+	height : 223px;
+	width: 2px;
+	top:10px;
+	left:  290px;
+	background: #024d61;
+}
+#points .feature_point .vline_r {
+	position: absolute;
+	height : 223px;
+	width: 2px;
+	top:10px;
+	left: 590px;
+	background: #024d61;
+}
+
+#points .feature_point .ill_pic_l {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+#points .feature_point .ill_pic_r {
+	position: absolute;
+	top: 0px;
+	right: -30px;
+	height: 300px;
+	width: 300px;
+}
+
+
