@@ -176,22 +176,26 @@ p#header_nav {
 }
 #peoples .person .dy ul.social {
     margin:0px;
+    padding-right: 15px;
     float: right;
     list-style:none;
 }
-#peoples .person .dy ul.social li {
+#peoples .person .dy ul.social a li {
+    padding: 0px;
     padding-left: 15px;
     padding-right: 15px;
-    display: none;
+}
+#peoples .person .dy .social li.Google {
+    background: url(img/google_team.png) no-repeat;
 }
 #peoples .person .dy:hover {
     background: #c2cfd2;
 }
-#peoples .person .dy:hover ul.social li {
-    display: inline;
+#peoples .person .dy:hover ul.social a li {
+    display: inline !important;
 }
-#peoples .person .dy .social li.Google {
-    background: url(img/google_team.png) no-repeat;
+#peoples .person .dy:hover .follow {
+    display: inline;
 }
 #peoples .person .dy .follow {
     float:right;
@@ -200,9 +204,6 @@ p#header_nav {
     margin-right: 10px;
     display: none;
     color:#336f7f;
-}
-#peoples .person .dy:hover .follow {
-    display: inline;
 }
 #peoples .person p.name {
     padding-left: 30px;
