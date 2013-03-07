@@ -162,6 +162,7 @@ p#header_nav {
 }
 #peoples .person img.profile {
     position: absolute;
+    width:190px;
     left: 20px;
 }
 
