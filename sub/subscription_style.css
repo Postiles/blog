@@ -146,9 +146,9 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     text-align:right;
     font-size:18px;
 }
-
 #sub_form #sBt {
     position: absolute;
+    margin-left: 
     top:0px;
     left:318px;
     margin-top:20px;
@@ -158,9 +158,17 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     height:55px;
     width:55px;
     cursor:pointer;
-    font-size: 18px;
+    font-size: 15px;
     color:#024d61;
     background:#fff;
+    -o-transition: color .20s linear;
+    -webkit-transition: color .20s;
+    -moz-transition: color .20s linear;
+    transition:  color .20s;
+}
+
+#sub_form #sBt:hover {
+    color: #FFA500;
 }
 
 

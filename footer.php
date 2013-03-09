@@ -14,19 +14,11 @@
                     |
                     <a href="#">Blog</a>
                     |
-                    <a href="#">Status</a>
-                    |
                     <a href="#">API</a>
-                    |
-                    <a href="#">Business</a>
-                    |
-                    <a href="#">Help</a>
                     |
                     <a href="#">Jobs</a>
                     |
                     <a href="#">Terms</a>
-                    |
-                    <a href="#">Privacy</a>
                 </p>
             </div>
         </div>

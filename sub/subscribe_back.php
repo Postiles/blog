@@ -46,3 +46,5 @@
             $message = 'Unknown action was not processed.';
             break;
     }
+
+    echo $message;

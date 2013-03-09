@@ -13,13 +13,21 @@ p,a,h1,h2,h3,h4,h5{
     padding:0;
     margin:0;
 }
+p {
+    line-height: 140%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oxygen', sans-serif;
+}
+
 pre ol, pre ul{
 	font-size: 12px;
 	line-height: 17px;
 }
 ul, ol, dl{
 	font-size: 14px;
-	line:height: 22px;
+	line-height: 22px;
 	color:#024d61;
 }
 mark{
@@ -69,6 +77,7 @@ body {
 }
 #header_wrap a{
     text-decoration:none;
+    font-size: 13px;
 }
 #header_wrap a:hover {
     text-decoration:underline;
@@ -110,6 +119,7 @@ body {
     background: url(img/cut_line.png) no-repeat;
     width:920px;
     height:13px;
+    display: block;
 }
 /*
 header
@@ -139,6 +149,7 @@ p#header_nav {
     right: 30px;
     padding: 0;
     margin: 0;
+    margin-right: -40px;
 }
 
 #header_nav a {
@@ -161,7 +172,7 @@ sidebar
 #search_bar input.text {
     float:left;
     display:block;
-    line-heighnd scrambled it to make a type specimen book. It has survived not only five centuries,Read Moret:14px;
+    line-height:14px;
     height:14px;
     padding:4px 0;
     margin:0px;
@@ -196,7 +207,7 @@ sidebar
 }
 #widget1 .widget_title {
     font-weight:bold;
-    color: #CCC;
+    color: #f5f5f5;
     margin-top: -29px;
     margin-left: 16px;
     margin-bottom:18px;
@@ -238,13 +249,17 @@ sidebar
 }
 #widget1 .widget_content a {
     text-decoration:none;
-    color:#CCC;
+    color:#f5f5f5;
 }
+#widget1 ul {
+    color:#f5f5f5;
+}
+
 #widget1 .widget_content a:hover {
     text-decoration:underline;
 }
 #widget1 .widget_content {
-    color: #CCC;
+    color: #f5f5f5;
     padding-top: 8px;
     margin-top: -11px;
     background: #024d61;
@@ -292,7 +307,6 @@ sidebar
 #featured {
     padding-top: 40px;
     display: block;
-    height: 300px;
 }
 #featured h4 {
     color:#024d61;
@@ -301,15 +315,14 @@ sidebar
 }
 #featured a#rssLink {
     background: url(img/rss_small.png) no-repeat;
-    width:30px;
-    height:30px;
-    margin-top:-5px;
+    width:25px;
+    height:25px;
+    margin-top:0px;
     margin-right:30px;
     float: right;
 }
-#featured #featured_title h3{
-    color
-
+#featured .featured_title {
+    margin-top: 5px;
 }
 #featured h3 a{
     color:#024d61;
@@ -322,7 +335,8 @@ sidebar
 
 #featured p.date{
     color:#c5c5c5;
-    font-size:14;
+    margin-top: 5px;
+    font-size:14px;
 }
 #featured .article p {
     line-height:140%;
@@ -332,10 +346,8 @@ sidebar
 
 
 #featured .content{
-    height: 200px;
     display: block;
     width: 400px;
-    float:left;
     margin-left:50px;
     margin-top:10px;
 }
@@ -471,7 +483,7 @@ sidebar
 
 .post .post_item {
     padding-top:10px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
 .post .post_item p{
@@ -516,7 +528,7 @@ sidebar
  * page-navigator
  */
 
-.page-navigator {
+.page-jjigator {
     padding:0;
     margin:0;
     margin-top: 5px;
@@ -538,8 +550,8 @@ sidebar
     display: block ;
     float: left;
     font-size: 12px;
-    padding-left:18px;
-    padding-top:8px;
+    padding-left:16px;
+    padding-top:6px;
     color: #FFF;
     margin:0px;
     text-decoration:none;
@@ -551,8 +563,8 @@ sidebar
     display:block;
     float: right;
     font-size: 12px;
-    padding-left:7px;
-    padding-top:8px;
+    padding-left:6px;
+    padding-top:6px;
     color: #FFF;
     margin:0px;
     text-decoration:none;
@@ -566,24 +578,30 @@ sidebar
 #footer h4,
 #footer p{
     color: white;
-    padding:0;
-    margin:0;
 }
 
 #footer .copy_r {
     float: left;
     margin: 20px;
+    margin-left: 80px;
+    margin-top: 22px;
+    font-size: 14px;
 }
-#footer #f_nav {
+#footer #f_nav p {
     padding-left: 20px;
     padding-top: 20px;
-    margin-left: 50px;
+    margin-left: 170px;
 }
 #footer #f_nav a {
     margin-left: 2px;
     margin-right: 2px;
     padding-left:3px;
     padding-right:3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#footer #f_nav a:hover {
+    text-decoration: underline;
 }
 #footer .f_logo{
     background: url(img/footer_logo.png) no-repeat;
@@ -637,6 +655,7 @@ sidebar
     height:26px;
     width:61px;
     cursor:pointer;
+    margin-bottom: 15px;
 }
 .bt_more a {
     font-size:11px !important;

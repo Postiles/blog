@@ -19,7 +19,11 @@
         <h4> FEATURED </h4>     
         <a href="index.php/feed" id = "rssLink" ></a>
         <div class="cut_line"></div>
+
         <div class="post">
+            <div class="f_image">
+                <img src="<?php echo $sticky_picture_link;?>" alt="demo_picture" />
+            </div>
             <div class="content">
                 <div class="featured_title" >
 					<h3><a href="<?php echo $value["permalink"]; ?>"><?php echo $value["title"];?></a></h3> 
@@ -30,9 +34,6 @@
                     <?php 
                     echo $featured_content . "<div class=\"bt_more clear\"><a href=\"".$value["permalink"]."\"title=\"".$value["title"]."\">Read More</a></div>" ?>
                 </div>
-            </div>
-            <div class="f_image">
-            <img src="<?php echo $sticky_picture_link;?>" alt="demo_picture" />
             </div>
         </div><!-- end of post -->
     </div><!-- end of featured -->

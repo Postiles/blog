@@ -31,12 +31,14 @@
             <div id="invalid">
                 <p>Please provide a valid email address</p>
             </div>
-            <div id="emailText">
-                <input placeholder="your email address here" type="text" name="inputs[email]" value="" />
-            </div>
-            <div>
-                <input id="sBt" type="submit" name="sbmt" value="GO" />
-            </div>
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <div id="emailText">
+                    <input placeholder="your email address here" type="text" name="inputs[email]" value="" />
+                </div>
+                <div>
+                    <input id="sBt" type="submit" name="sbmt" value="GO"/>
+                </div>
+            </form>
         </div>
     </div>
   </body>
