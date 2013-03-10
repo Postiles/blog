@@ -75,13 +75,7 @@ body {
     height: 89px;
     background: #024d61 url(img/header.png) center no-repeat;
 }
-#header_wrap a{
-    text-decoration:none;
-    font-size: 13px;
-}
-#header_wrap a:hover {
-    text-decoration:underline;
-}
+
 #header {
     height: 89px;
     width: 920px;
@@ -157,6 +151,23 @@ p#header_nav {
     padding-left:10px;
     padding-right:10px;
 }
+#header_wrap a{
+    text-decoration:none;
+    font-size: 13px;
+}
+#header_wrap a:hover {
+    text-decoration:underline;
+}
+
+#header #logo {
+    position: absolute;
+    width : 175px;
+    height : 20px;
+    background: url(img/logo.png) no-repeat;
+    left: 0;
+    bottom: 10px;
+}
+
 
 /*
 sidebar

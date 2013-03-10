@@ -16,7 +16,7 @@
 <div id="overall_wrap">
 	<div id="header_wrap">
 	    <div id="header">
-	        <h1 id="site_title">POSTILE | Ideas for linking</h1>
+	        <div id="logo"> </div>
 	        <p id="header_nav">
 	            <a href="/concept.html">Concept</a>
 	            <a href="/team.html">Team</a>
