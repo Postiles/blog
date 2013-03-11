@@ -21,7 +21,7 @@
 	            <a href="/concept.html">Concept</a>
 	            <a href="/team.html">Team</a>
 	            <a href="/">Blog</a>
-	            <a href="/subscribe.php">Subscribe<a>
+	            <a href="/subscribe.html">Subscribe<a>
 	        </p>
 	    </div>
 	</div><!-- end of header_wrap -->
