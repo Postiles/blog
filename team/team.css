@@ -175,6 +175,7 @@ p#header_nav {
 }
 #peoples .person .dy {
     margin-top:30px;
+    height: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     -o-transition: background .20s linear;
@@ -186,18 +187,18 @@ p#header_nav {
     padding-top: 3px;
     margin:0px;
     float: right;
-    width: 100px;
 }
 #peoples .person .dy ul.social li {
     padding: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     -o-transition: opacity .20s linear;
     -webkit-transition: opacity .20s linear;
     -moz-transition: opacity .20s linear;
     transition:  opacity .20s linear;
     opacity: 0;
-    display: inline;
+    list-style-type: none;
+    float:left
 }
 #peoples .person .dy .social li.Google {
 }
@@ -232,7 +233,7 @@ p#header_nav {
     font-weight: bold;
 }
 #peoples .person p.position {
-    display: inline;
+    float: left;
     width: 200px;
     padding-left: 30px;
     font-size: 14px;
