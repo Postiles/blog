@@ -133,7 +133,7 @@ div#invalid {
 }
 #invalid p {
     margin:15px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
