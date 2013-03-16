@@ -2,7 +2,7 @@
     <div id="sidebar">
         <form id="search_bar" method="post" action="index.php/search">
             <div>
-                <input type="text" name="s" class="text" size="20" />
+                <input placeholder="    Search All Posts" type="text" name="s" class="text" size="20" />
                 <input type="submit" class="submit" value="<?php _e('search'); ?>" />
             </div>
         </form>
