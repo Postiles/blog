@@ -43,21 +43,33 @@ body {
     width: 1020px;
     height: 586px;
     position: absolute;
-    background: url(img/whole_main.png) no-repeat;
+   
 }
 #header {
     position: absolute;
-    left: 30px;
+    top: 80px;
+    left: 50px;
     height: 500px;
-    width: 100px;
+    width: 160px;
+    background: url(img/sub_header.png) no-repeat;
+    z-index: 2;
+}
+div.white_mask {
+    position: absolute;
+    top: 285px;
+    left: 70px;
+    width: 54px;
+    height: 20px;
+    background: #f2f2f2;
+    z-index: 1;
 }
 
 #header #nav {
     position: absolute;
-    left: 25px;
+    left: -7px;
+    top: 15px;
     height: 311px;
     width: 117px;
-    margin-top: 100px;
     text-align:center;
 }
 #header #nav p {
@@ -69,6 +81,34 @@ body {
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#content #logo {
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    width: 817px;
+    height: 516px;
+    background: url(img/sub_main.png) no-repeat;
+}
+
+#content .sub_words{
+    position: absolute;
+    top: 440px;
+    left: 100px;
+    z-index: 10;
+
+}
+
+#content .sub_words p {
+    font-size: 15px;
+    color: #024d61;
+}
+
+#content .sub_words h1 {
+    font-size: 40px;
+    color: #024d61;
+    font-family: "Oxygen", sans-serif;
 }
 
 div#sub_form {
