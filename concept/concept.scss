@@ -1,0 +1,315 @@
+$bg_color: #f5f5f5;
+$container_color: #c2cfd2;
+$main_color: #024d61;
+
+.title {
+  font-family: Play;
+  font-size: 60px;
+  color: $main_color;
+}
+
+.sub-title {
+  margin-left: 160px;
+  font-family: Play;
+  font-size: 30px;
+  color: #70939d;
+}
+
+.text {
+  margin-top: 30px;
+  margin-left: 50px;
+  color: $main_color;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: $bg_color;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: HelveticaNeue;
+    background: $bg_color;
+    height: 100%;
+
+    #wrapper {
+      height: 100%;
+
+      .section {
+        height: 100%;
+        overflow: hidden;
+
+        .content {
+          width: 800px;
+          margin: 0 auto;
+
+          .left {
+            float: left;
+            margin-top: 100px;
+            width: 500px;
+
+            .title {
+              font-family: Play;
+              font-size: 60px;
+              color: $main_color;
+            }
+
+            .sub-title {
+              margin-left: 160px;
+              font-family: Play;
+              font-size: 30px;
+              color: #70939d;
+            }
+
+            .text {
+              margin-top: 30px;
+              margin-left: 50px;
+              color: $main_color;
+              font-size: 20px;
+            }
+          }
+
+          .right {
+            float: right;
+            position: relative;
+            top: -50px;
+          }
+        }
+      }
+
+      #section-1 {
+        background: $container_color;
+
+        .dots {
+          text-align: center;
+          width: 20px;
+          margin: 0 auto;
+          margin-top: 580px;
+          
+          .dot {
+            margin-top: 10px;
+            width: 20px;
+            height: 20px;
+            background: $main_color;
+            -webkit-border-radius: 10px;
+          }
+        }
+
+      }
+
+      #section-2 {
+        background: url('img/bg2.jpg') fixed;
+        background-size: cover;
+
+        .content {
+          position: relative;
+          top: 200px;
+          width: 800px;
+          height: 400px;
+        }
+      }
+
+      #section-3 {
+        background: $main_color;
+
+        .content {
+          position: relative;
+          top: 200px;
+          width: 800px;
+          height: 400px;
+
+          .title {
+            color: $bg_color;
+          }
+          
+          .sub-title {
+          }
+
+          .text {
+            color: $bg_color;
+          }
+        }
+      }
+
+      #section-4 {
+        background: url('img/bg3.jpg') fixed;
+        background-size: cover;
+
+        .content {
+          position: relative;
+          top: 200px;
+          width: 800px;
+          height: 400px;
+
+          .title {
+            color: $bg_color;
+          }
+          
+          .sub-title {
+          }
+
+          .text {
+            color: $bg_color;
+          }
+        }
+      }
+
+      #section-5 {
+        background: $bg_color;
+
+        .content {
+          width: 100%;
+
+          .bg-img {
+            position: absolute;
+            margin-left: 250px;
+            margin-top: 60px;
+            width: 817px;
+            height: 516px;
+            background: url('img/subscribe.png') no-repeat;
+          }
+
+          .horizontal-bar {
+            position: absolute;
+            margin-top: 330px;
+            width: 100%;
+            height: 10px;
+            background: $main_color;
+          }
+
+          .button-box {
+            position: absolute;
+            left: 30px;
+            margin-top: 189px;
+            height: 200px;
+            width: 100px;
+
+            .bubble {
+
+              .box {
+                padding: 15px;
+                -webkit-border-radius: 6px;
+                background: $main_color;
+
+                .item {
+                  margin-top: 15px;
+                  text-align: center;
+                  color: $bg_color;
+                  cursor: pointer;
+                }
+
+                .item:first-child {
+                  margin-top: 0px;
+                }
+              }
+
+              .caret {
+                position: relative;
+                top: -60px;
+                left: 20px;
+                float: right;
+                width: 0;
+                height: 0;
+                border-top: 20px solid transparent;
+                border-left: 20px solid $main_color;
+                border-bottom: 20px solid transparent;
+              }
+            }
+
+            .link {
+              position: relative;
+              left: 45px;
+              width: 10px;
+              height: 60px;
+              background: $main_color;
+            }
+
+            .radio-container {
+              .radio {
+                background: url('img/radio.png') no-repeat;
+                position: relative;
+                top: -29px;
+                left: 13px;
+                width: 72px;
+                height: 72px;
+                z-index: 1;
+              }
+
+              .mask {
+                position: relative;
+                top: -73px;
+                left: 15px;
+                width: 57px;
+                height: 12px;
+                background: $bg_color;
+              }
+            }
+          }
+
+          .intro {
+            position: absolute;
+            margin-top: 500px;
+            margin-left: 180px;
+            width: 400px;
+            font-family: Play;
+            color: $main_color;
+
+            .brand-new {
+              font-size: 18px;
+            }
+
+            .coming {
+              margin-top: 10px;
+              margin-left: 50px;
+              font-size: 40px;
+            }
+          }
+
+          .input-container {
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 560px;
+            display: table-cell;
+
+            input {
+              float: left;
+              width: 250px;
+              color: $bg_color;
+              font-size: 16px;
+              padding: 12px 20px;
+              background: rgba(107, 149, 161, 0.8);
+              text-align: right;
+              outline: none;
+              border: none;
+            }
+
+            .go {
+              position: relative;
+              left: 14px;
+              float: right;
+              padding: 7px;
+              background: $main_color;
+
+              .button {
+                padding: 7px;
+                color: $main_color;
+                background: $bg_color;
+                cursor: pointer;
+                -webkit-transition: color 0.3s;
+
+                &:hover {
+                  color: #ffa500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
