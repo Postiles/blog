@@ -69,7 +69,7 @@ body {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -176px;
+    margin: 0 auto -94px;
 }
 #header_wrap {
     height: 89px;
@@ -95,24 +95,26 @@ body {
     float: right;
 }
 #footer_dummy {
-    height:176px;
+    height:94px;
 }
 #footer_wrap {
-    height: 176px;
+    height: 94px;
     background: url(img/footer_wrap.png);
 }
 #footer {
     width: 920px;
-    height: 176px;
+    height: 94px;
     padding: 0 90px;
     background: url(img/footer.png);
     margin: 0 auto;
 }
 
 .cut_line {
-    background: url(img/cut_line.png) no-repeat;
+    background: #024d61;
+    opacity: 0.6;
+    margin-top: 5px;
     width:920px;
-    height:13px;
+    height: 1px;
     display: block;
 }
 /*
@@ -195,6 +197,11 @@ sidebar
 #search_bar input.text:focus {
     outline: none;
 }
+#search_bar input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    padding-top: 2px;
+    font-size:13px;
+}
+
 #search_bar input.submit {
     float:right;
     display:block;
@@ -526,8 +533,9 @@ sidebar
     text-decoration:underline;
 }
 .post_cut {
-    background: url(img/post_cut.png) no-repeat;
-    height: 15px;
+    height: 1px;
+    opacity: 0.6;
+    background: #024d61;
 }
 
 /* for List of Result and No Result */
@@ -553,7 +561,9 @@ sidebar
 .page-navigator li {
     list-style:none;
 }
-
+ol.page-navigator {
+    padding-left: 5px;
+}
 .page-navigator li a.prev {
     background: url(img/newer_post.png) no-repeat;
     height: 34px;
@@ -592,16 +602,21 @@ sidebar
 }
 
 #footer .copy_r {
-    float: left;
     margin: 20px;
     margin-left: 80px;
     margin-top: 22px;
     font-size: 14px;
 }
-#footer #f_nav p {
-    padding-left: 20px;
+#footer .copy_r p{
+    padding-left: : 127px;
     padding-top: 20px;
-    margin-left: 170px;
+}
+
+#footer #f_nav {
+    margin-left: 30px;
+}
+#footer #f_nav p {
+    margin-top: -18px;
 }
 #footer #f_nav a {
     margin-left: 2px;
@@ -614,13 +629,19 @@ sidebar
 #footer #f_nav a:hover {
     text-decoration: underline;
 }
+
+#footer .word {
+    padding-top:20px;
+}
+
 #footer .f_logo{
     background: url(img/footer_logo.png) no-repeat;
     position:relative;
     width:200px;
     height:70px;
+    margin:20px;
+    margin-left: -5px;
     float:left;
-    padding-left: 20px;
 }
 #footer .f_logo h2{
     font-size:39px;
