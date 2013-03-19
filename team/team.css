@@ -68,7 +68,7 @@ body {
 }
 
 #peoples {
-    width: 740px;
+    width: 800px;
     margin:0px auto;
     position: relative;
 }
@@ -155,13 +155,14 @@ p#header_nav {
     font-size: 14px;
 }
 #we img {
+    margin-top: -25px;
 }
 
 
 /* peoples */
 #peoples #pvline {
     position: absolute;
-    left: 247px;
+    left: 270px;
     width: 2px;
     margin-top: -30px;
     height: 1500px;
@@ -169,32 +170,54 @@ p#header_nav {
 }
 
 #peoples .person {
+    clear: both;
+    width: 800px;
     position: relative;
+    padding-bottom:30px;
     padding-top:30px;
-    margin-bottom:30px;
-    height: 230px;
+}
+
+#peoples .person .person-left-part {
+    float: left;
+    left: 20px;
+    width: 245px;
 }
 
 #peoples .person img.nameCN { 
-    position:absolute;
-    bottom:5px;
-    left:-20px;
+    width: 45px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 #peoples .person img.profile {
-    position: absolute;
-    width:190px;
+    width: 190px;
     left: 20px;
+}
+
+#peoples .person .name_pointer {
+    margin-left: -23px;
+}
+
+#peoples .person .arrow-left {
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #c2cfd2;
+    position: relative;
+    display: inline-block;
+    top:30px;
+    left: -23px;
 }
 
 #peoples .person div.info {
     padding-top: 1px;
-    margin-left: 249px;
+    margin-left: 270px;
 }
 #peoples .person .dy {
-    margin-top:30px;
+    margin-top: -19px;
     height: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-bottom: 25px;
     -o-transition: background .20s linear;
     -webkit-transition: background .20s;
     -moz-transition: background .20s linear;
@@ -224,10 +247,10 @@ p#header_nav {
 #peoples .person .dy:hover ul.social li {
     opacity: 1;
 }
-#peoples .person .dy:hover .follow {
+#peoples .person .dy:hover span.follow {
     opacity: 1;
 }
-#peoples .person .dy .follow {
+#peoples .person .dy span.follow {
     float:right;
     font-size: 12px;
     margin-top: 3px;
@@ -239,33 +262,23 @@ p#header_nav {
     -moz-transition: opacity .20s linear;
     transition:  opacity .20s linear;
 }
-#peoples .person p.name {
+#peoples .person span.name {
     padding-left: 30px;
     margin-top:30px;
     color: #fe6921;
     display: inline;
 }
-#peoples .person p.name span {
+#peoples .person span.name span {
     font-weight: bold;
 }
-#peoples .person p.position {
-    float: left;
+#peoples .person span.position {
     width: 200px;
     padding-left: 30px;
     font-size: 14px;
     color: #336f7f;
 }
 #peoples .person .others p{
-    margin-top: 28px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    margin: 8px 0px;
     font-size : 14px;
-}
-#peoples .person .arrow-left{
-    position: absolute;
-    top: 61px;
-    left:223px;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-right: 25px solid #c2cfd2;
 }
