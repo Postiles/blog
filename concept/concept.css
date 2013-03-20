@@ -82,36 +82,119 @@ html {
         background: #024d61; }
         html body #wrapper #section-3 .content {
           position: relative;
-          top: 200px;
+          top: 100px;
           width: 800px;
           height: 400px; }
           html body #wrapper #section-3 .content .title {
             color: whitesmoke; }
+          html body #wrapper #section-3 .content .sub-title {
+            width: 600px; }
           html body #wrapper #section-3 .content .text {
             color: whitesmoke; }
-      html body #wrapper #section-4 {
-        background: url("img/bg3.jpg") fixed;
-        background-size: cover; }
-        html body #wrapper #section-4 .content {
-          position: relative;
-          top: 200px;
-          width: 800px;
-          height: 400px; }
-          html body #wrapper #section-4 .content .title {
-            color: whitesmoke; }
-          html body #wrapper #section-4 .content .text {
-            color: whitesmoke; }
+          html body #wrapper #section-3 .content .canvas {
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 500px;
+            height: 300px; }
+            html body #wrapper #section-3 .content .canvas .sq {
+              position: absolute;
+              width: 21px;
+              height: 17px;
+              background: whitesmoke;
+              opacity: 0.3; }
+            html body #wrapper #section-3 .content .canvas #sq-1 {
+              margin-left: 240px;
+              margin-top: 100px; }
+            html body #wrapper #section-3 .content .canvas #sq-2 {
+              margin-left: 220px;
+              margin-top: 80px; }
+            html body #wrapper #section-3 .content .canvas #sq-3 {
+              margin-left: 200px;
+              margin-top: 60px; }
+            html body #wrapper #section-3 .content .canvas #sq-4 {
+              margin-left: 175px;
+              margin-top: 80px; }
+            html body #wrapper #section-3 .content .canvas #sq-5 {
+              margin-left: 150px;
+              margin-top: 100px; }
+            html body #wrapper #section-3 .content .canvas #sq-6 {
+              margin-left: 155px;
+              margin-top: 120px; }
+            html body #wrapper #section-3 .content .canvas #sq-7 {
+              margin-left: 165px;
+              margin-top: 140px; }
+            html body #wrapper #section-3 .content .canvas #sq-8 {
+              margin-left: 180px;
+              margin-top: 160px; }
+            html body #wrapper #section-3 .content .canvas #sq-9 {
+              margin-left: 200px;
+              margin-top: 180px; }
+            html body #wrapper #section-3 .content .canvas #sq-10 {
+              margin-left: 220px;
+              margin-top: 200px; }
+            html body #wrapper #section-3 .content .canvas #sq-11 {
+              margin-left: 240px;
+              margin-top: 220px; }
+            html body #wrapper #section-3 .content .canvas #sq-12 {
+              margin-left: 260px;
+              margin-top: 200px; }
+            html body #wrapper #section-3 .content .canvas #sq-13 {
+              margin-left: 280px;
+              margin-top: 180px; }
+            html body #wrapper #section-3 .content .canvas #sq-14 {
+              margin-left: 300px;
+              margin-top: 160px; }
+            html body #wrapper #section-3 .content .canvas #sq-15 {
+              margin-left: 315px;
+              margin-top: 140px; }
+            html body #wrapper #section-3 .content .canvas #sq-16 {
+              margin-left: 325px;
+              margin-top: 120px; }
+            html body #wrapper #section-3 .content .canvas #sq-17 {
+              margin-left: 330px;
+              margin-top: 100px; }
+            html body #wrapper #section-3 .content .canvas #sq-18 {
+              margin-left: 305px;
+              margin-top: 80px; }
+            html body #wrapper #section-3 .content .canvas #sq-19 {
+              margin-left: 280px;
+              margin-top: 60px; }
+            html body #wrapper #section-3 .content .canvas #sq-20 {
+              margin-left: 260px;
+              margin-top: 80px; }
+      html body #wrapper #section-4 .bg-container {
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 100%; }
+        html body #wrapper #section-4 .bg-container .bg-list {
+          position: absolute;
+          width: 200%;
+          height: 100%; }
+          html body #wrapper #section-4 .bg-container .bg-list .bg {
+            width: 50%;
+            height: 100%; }
+          html body #wrapper #section-4 .bg-container .bg-list #bg-1 {
+            float: left;
+            background: url("img/bg4.jpg") fixed;
+            background-size: cover; }
+          html body #wrapper #section-4 .bg-container .bg-list #bg-2 {
+            float: right;
+            background: url("img/bg3.jpg") fixed;
+            background-size: cover; }
+      html body #wrapper #section-4 .content {
+        position: relative;
+        top: 200px;
+        width: 800px;
+        height: 400px; }
+        html body #wrapper #section-4 .content .title {
+          color: whitesmoke; }
+        html body #wrapper #section-4 .content .text {
+          color: whitesmoke; }
       html body #wrapper #section-5 {
         background: whitesmoke; }
         html body #wrapper #section-5 .content {
           width: 100%; }
-          html body #wrapper #section-5 .content .bg-img {
-            position: absolute;
-            margin-left: 250px;
-            margin-top: 60px;
-            width: 817px;
-            height: 516px;
-            background: url("img/subscribe.png") no-repeat; }
           html body #wrapper #section-5 .content .horizontal-bar {
             position: absolute;
             margin-top: 330px;
@@ -161,50 +244,63 @@ html {
               z-index: 1; }
             html body #wrapper #section-5 .content .button-box .radio-container .mask {
               position: relative;
-              top: -73px;
+              top: -75px;
               left: 15px;
               width: 57px;
               height: 12px;
               background: whitesmoke; }
-          html body #wrapper #section-5 .content .intro {
-            position: absolute;
-            margin-top: 500px;
-            margin-left: 180px;
-            width: 400px;
-            font-family: Play;
-            color: #024d61; }
-            html body #wrapper #section-5 .content .intro .brand-new {
-              font-size: 18px; }
-            html body #wrapper #section-5 .content .intro .coming {
-              margin-top: 10px;
-              margin-left: 50px;
-              font-size: 40px; }
-          html body #wrapper #section-5 .content .input-container {
-            position: absolute;
-            margin-top: 450px;
-            margin-left: 560px;
-            display: table-cell; }
-            html body #wrapper #section-5 .content .input-container input {
-              float: left;
-              width: 250px;
-              color: whitesmoke;
-              font-size: 16px;
-              padding: 12px 20px;
-              background: rgba(107, 149, 161, 0.8);
-              text-align: right;
-              outline: none;
-              border: none; }
-            html body #wrapper #section-5 .content .input-container .go {
-              position: relative;
-              left: 14px;
-              float: right;
-              padding: 7px;
-              background: #024d61; }
-              html body #wrapper #section-5 .content .input-container .go .button {
+          html body #wrapper #section-5 .content .inner {
+            position: relative;
+            margin: 0 auto;
+            top: 60px;
+            width: 817px;
+            height: 516px; }
+            html body #wrapper #section-5 .content .inner .bg-img {
+              position: absolute;
+              width: inherit;
+              height: inherit;
+              background: url("img/subscribe.png") no-repeat; }
+            html body #wrapper #section-5 .content .inner .intro {
+              position: absolute;
+              margin-top: 440px;
+              margin-left: -60px;
+              width: 400px;
+              font-family: Play;
+              color: #024d61; }
+              html body #wrapper #section-5 .content .inner .intro .brand-new {
+                font-size: 18px; }
+              html body #wrapper #section-5 .content .inner .intro .coming {
+                margin-top: 10px;
+                margin-left: 50px;
+                font-size: 40px; }
+            html body #wrapper #section-5 .content .inner .input-container {
+              position: absolute;
+              margin-top: 400px;
+              margin-left: 310px;
+              display: table-cell; }
+              html body #wrapper #section-5 .content .inner .input-container input {
+                float: left;
+                width: 250px;
+                color: whitesmoke;
+                font-size: 16px;
+                padding: 12px 20px;
+                background: rgba(107, 149, 161, 0.8);
+                text-align: right;
+                outline: none;
+                border: none; }
+              html body #wrapper #section-5 .content .inner .input-container .go {
+                position: relative;
+                left: 14px;
+                float: right;
                 padding: 7px;
-                color: #024d61;
-                background: whitesmoke;
-                cursor: pointer;
-                -webkit-transition: color 0.3s; }
-                html body #wrapper #section-5 .content .input-container .go .button:hover {
-                  color: #ffa500; }
+                background: #024d61; }
+                html body #wrapper #section-5 .content .inner .input-container .go .button {
+                  padding: 7px;
+                  padding-top: 10px;
+                  padding-bottom: 4px;
+                  color: #024d61;
+                  background: whitesmoke;
+                  cursor: pointer;
+                  -webkit-transition: color 0.3s; }
+                  html body #wrapper #section-5 .content .inner .input-container .go .button:hover {
+                    color: #ffa500; }

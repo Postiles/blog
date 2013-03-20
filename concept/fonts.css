@@ -2,3 +2,8 @@
   font-family: HelveticaNeue;
   src: url('../fonts/HelveticaNeue.otf');
 }
+
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url('../fonts/HelveticaNeueLight.otf');
+}

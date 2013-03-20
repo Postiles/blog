@@ -119,7 +119,7 @@ html {
 
         .content {
           position: relative;
-          top: 200px;
+          top: 100px;
           width: 800px;
           height: 400px;
 
@@ -128,17 +128,161 @@ html {
           }
           
           .sub-title {
+            width: 600px;
           }
 
           .text {
             color: $bg_color;
           }
+
+          .canvas {
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 500px;
+            height: 300px;
+
+            .sq {
+              position: absolute;
+              width: 21px;
+              height: 17px;
+              background: $bg_color;
+              opacity: 0.3;
+            }
+
+            #sq-1 {
+              margin-left: 240px;
+              margin-top: 100px;
+            }
+
+            #sq-2 {
+              margin-left: 220px;
+              margin-top: 80px;
+            }
+
+            #sq-3 {
+              margin-left: 200px;
+              margin-top: 60px;
+            }
+
+            #sq-4 {
+              margin-left: 175px;
+              margin-top: 80px;
+            }
+
+            #sq-5 {
+              margin-left: 150px;
+              margin-top: 100px;
+            }
+
+            #sq-6 {
+              margin-left: 155px;
+              margin-top: 120px;
+            }
+
+            #sq-7 {
+              margin-left: 165px;
+              margin-top: 140px;
+            }
+
+            #sq-8 {
+              margin-left: 180px;
+              margin-top: 160px;
+            }
+
+            #sq-9 {
+              margin-left: 200px;
+              margin-top: 180px;
+            }
+
+            #sq-10 {
+              margin-left: 220px;
+              margin-top: 200px;
+            }
+
+            #sq-11 {
+              margin-left: 240px;
+              margin-top: 220px;
+            }
+
+            #sq-12 {
+              margin-left: 260px;
+              margin-top: 200px;
+            }
+
+            #sq-13 {
+              margin-left: 280px;
+              margin-top: 180px;
+            }
+
+            #sq-14 {
+              margin-left: 300px;
+              margin-top: 160px;
+            }
+
+            #sq-15 {
+              margin-left: 315px;
+              margin-top: 140px;
+            }
+
+            #sq-16 {
+              margin-left: 325px;
+              margin-top: 120px;
+            }
+
+            #sq-17 {
+              margin-left: 330px;
+              margin-top: 100px;
+            }
+
+            #sq-18 {
+              margin-left: 305px;
+              margin-top: 80px;
+            }
+
+            #sq-19 {
+              margin-left: 280px;
+              margin-top: 60px;
+            }
+
+            #sq-20 {
+              margin-left: 260px;
+              margin-top: 80px;
+            }
+          }
         }
       }
 
       #section-4 {
-        background: url('img/bg3.jpg') fixed;
-        background-size: cover;
+
+        .bg-container {
+          position: absolute;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+
+          .bg-list {
+            position: absolute;
+            width: 200%;
+            height: 100%;
+
+            .bg {
+              width: 50%;
+              height: 100%;
+            }
+
+            #bg-1 {
+              float: left;
+              background: url('img/bg4.jpg') fixed;
+              background-size: cover;
+            }
+
+            #bg-2 {
+              float: right;
+              background: url('img/bg3.jpg') fixed;
+              background-size: cover;
+            }
+          }
+        }
 
         .content {
           position: relative;
@@ -164,15 +308,6 @@ html {
 
         .content {
           width: 100%;
-
-          .bg-img {
-            position: absolute;
-            margin-left: 250px;
-            margin-top: 60px;
-            width: 817px;
-            height: 516px;
-            background: url('img/subscribe.png') no-repeat;
-          }
 
           .horizontal-bar {
             position: absolute;
@@ -242,7 +377,7 @@ html {
 
               .mask {
                 position: relative;
-                top: -73px;
+                top: -75px;
                 left: 15px;
                 width: 57px;
                 height: 12px;
@@ -251,59 +386,76 @@ html {
             }
           }
 
-          .intro {
-            position: absolute;
-            margin-top: 500px;
-            margin-left: 180px;
-            width: 400px;
-            font-family: Play;
-            color: $main_color;
+          .inner {
+            position: relative;
+            margin: 0 auto;
+            top: 60px;
+            width: 817px;
+            height: 516px;
 
-            .brand-new {
-              font-size: 18px;
+            .bg-img {
+              position: absolute;
+              width: inherit;
+              height: inherit;
+              background: url('img/subscribe.png') no-repeat;
             }
 
-            .coming {
-              margin-top: 10px;
-              margin-left: 50px;
-              font-size: 40px;
-            }
-          }
+            .intro {
+              position: absolute;
+              margin-top: 440px;
+              margin-left: -60px;
+              width: 400px;
+              font-family: Play;
+              color: $main_color;
 
-          .input-container {
-            position: absolute;
-            margin-top: 450px;
-            margin-left: 560px;
-            display: table-cell;
+              .brand-new {
+                font-size: 18px;
+              }
 
-            input {
-              float: left;
-              width: 250px;
-              color: $bg_color;
-              font-size: 16px;
-              padding: 12px 20px;
-              background: rgba(107, 149, 161, 0.8);
-              text-align: right;
-              outline: none;
-              border: none;
+              .coming {
+                margin-top: 10px;
+                margin-left: 50px;
+                font-size: 40px;
+              }
             }
 
-            .go {
-              position: relative;
-              left: 14px;
-              float: right;
-              padding: 7px;
-              background: $main_color;
+            .input-container {
+              position: absolute;
+              margin-top: 400px;
+              margin-left: 310px;
+              display: table-cell;
 
-              .button {
+              input {
+                float: left;
+                width: 250px;
+                color: $bg_color;
+                font-size: 16px;
+                padding: 12px 20px;
+                background: rgba(107, 149, 161, 0.8);
+                text-align: right;
+                outline: none;
+                border: none;
+              }
+
+              .go {
+                position: relative;
+                left: 14px;
+                float: right;
                 padding: 7px;
-                color: $main_color;
-                background: $bg_color;
-                cursor: pointer;
-                -webkit-transition: color 0.3s;
+                background: $main_color;
 
-                &:hover {
-                  color: #ffa500;
+                .button {
+                  padding: 7px;
+                  padding-top: 10px;
+                  padding-bottom: 4px;
+                  color: $main_color;
+                  background: $bg_color;
+                  cursor: pointer;
+                  -webkit-transition: color 0.3s;
+
+                  &:hover {
+                    color: #ffa500;
+                  }
                 }
               }
             }
