@@ -60,7 +60,9 @@ $(function() {
         });
 
         /* section 1 */
-        dots.css('opacity', 1 - Math.max(0, sectionScrollTop[1]) / 500);
+        dots.eq(0).css('opacity', 1 - Math.max(0, sectionScrollTop[1]) / 300);
+        dots.eq(1).css('opacity', 1 - Math.max(0, sectionScrollTop[1] - 100) / 300);
+        dots.eq(2).css('opacity', 1 - Math.max(0, sectionScrollTop[1] - 200) / 300);
 
         /* section 2 */
         sectionContents.eq(1).css('left', scrollTop / 2 - 300);

@@ -2,25 +2,6 @@ $bg_color: #f5f5f5;
 $container_color: #c2cfd2;
 $main_color: #024d61;
 
-.title {
-  font-family: Play;
-  font-size: 60px;
-  color: $main_color;
-}
-
-.sub-title {
-  margin-left: 160px;
-  font-family: Play;
-  font-size: 30px;
-  color: #70939d;
-}
-
-.text {
-  margin-top: 30px;
-  margin-left: 50px;
-  color: $main_color;
-  font-size: 20px;
-}
 
 ::-webkit-input-placeholder {
   color: $bg_color;
@@ -48,36 +29,24 @@ html {
           width: 800px;
           margin: 0 auto;
 
-          .left {
-            float: left;
-            margin-top: 100px;
-            width: 500px;
-
-            .title {
-              font-family: Play;
-              font-size: 60px;
-              color: $main_color;
-            }
-
-            .sub-title {
-              margin-left: 160px;
-              font-family: Play;
-              font-size: 30px;
-              color: #70939d;
-            }
-
-            .text {
-              margin-top: 30px;
-              margin-left: 50px;
-              color: $main_color;
-              font-size: 20px;
-            }
+          .title {
+            font-family: Play;
+            font-size: 60px;
+            color: $main_color;
           }
 
-          .right {
-            float: right;
-            position: relative;
-            top: -50px;
+          .sub-title {
+            margin-left: 160px;
+            font-family: Play;
+            font-size: 30px;
+            color: #70939d;
+          }
+
+          .text {
+            margin-top: 30px;
+            margin-left: 50px;
+            color: $main_color;
+            font-size: 20px;
           }
         }
       }
@@ -85,11 +54,31 @@ html {
       #section-1 {
         background: $container_color;
 
+        .content {
+          position: relative;
+          top: 50%;
+          height: 460px;
+          margin-top: -230px;
+
+          .left {
+            float: left;
+            width: 500px;
+          }
+
+          .right {
+            float: right;
+            position: relative;
+            top: -70px;
+          }
+        }
+
         .dots {
+          position: absolute;
+          left: 50%;
+          margin-left: -10px;
+          bottom: 60px;
           text-align: center;
           width: 20px;
-          margin: 0 auto;
-          margin-top: 580px;
           
           .dot {
             margin-top: 10px;
@@ -108,9 +97,10 @@ html {
 
         .content {
           position: relative;
-          top: 200px;
+          top: 50%;
+          margin-top: -140px;
           width: 800px;
-          height: 400px;
+          height: 280px;
         }
       }
 
@@ -119,9 +109,10 @@ html {
 
         .content {
           position: relative;
-          top: 100px;
+          top: 50%;
+          margin-top: -270px;
           width: 800px;
-          height: 400px;
+          height: 540px;
 
           .title {
             color: $bg_color;
@@ -286,9 +277,10 @@ html {
 
         .content {
           position: relative;
-          top: 200px;
+          top: 50%;
+          margin-top: -130px;
           width: 800px;
-          height: 400px;
+          height: 260px;
 
           .title {
             color: $bg_color;

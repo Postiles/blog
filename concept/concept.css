@@ -1,20 +1,3 @@
-.title {
-  font-family: Play;
-  font-size: 60px;
-  color: #024d61; }
-
-.sub-title {
-  margin-left: 160px;
-  font-family: Play;
-  font-size: 30px;
-  color: #70939d; }
-
-.text {
-  margin-top: 30px;
-  margin-left: 50px;
-  color: #024d61;
-  font-size: 20px; }
-
 ::-webkit-input-placeholder {
   color: whitesmoke; }
 
@@ -35,35 +18,41 @@ html {
         html body #wrapper .section .content {
           width: 800px;
           margin: 0 auto; }
-          html body #wrapper .section .content .left {
-            float: left;
-            margin-top: 100px;
-            width: 500px; }
-            html body #wrapper .section .content .left .title {
-              font-family: Play;
-              font-size: 60px;
-              color: #024d61; }
-            html body #wrapper .section .content .left .sub-title {
-              margin-left: 160px;
-              font-family: Play;
-              font-size: 30px;
-              color: #70939d; }
-            html body #wrapper .section .content .left .text {
-              margin-top: 30px;
-              margin-left: 50px;
-              color: #024d61;
-              font-size: 20px; }
-          html body #wrapper .section .content .right {
-            float: right;
-            position: relative;
-            top: -50px; }
+          html body #wrapper .section .content .title {
+            font-family: Play;
+            font-size: 60px;
+            color: #024d61; }
+          html body #wrapper .section .content .sub-title {
+            margin-left: 160px;
+            font-family: Play;
+            font-size: 30px;
+            color: #70939d; }
+          html body #wrapper .section .content .text {
+            margin-top: 30px;
+            margin-left: 50px;
+            color: #024d61;
+            font-size: 20px; }
       html body #wrapper #section-1 {
         background: #c2cfd2; }
+        html body #wrapper #section-1 .content {
+          position: relative;
+          top: 50%;
+          height: 460px;
+          margin-top: -230px; }
+          html body #wrapper #section-1 .content .left {
+            float: left;
+            width: 500px; }
+          html body #wrapper #section-1 .content .right {
+            float: right;
+            position: relative;
+            top: -70px; }
         html body #wrapper #section-1 .dots {
+          position: absolute;
+          left: 50%;
+          margin-left: -10px;
+          bottom: 60px;
           text-align: center;
-          width: 20px;
-          margin: 0 auto;
-          margin-top: 580px; }
+          width: 20px; }
           html body #wrapper #section-1 .dots .dot {
             margin-top: 10px;
             width: 20px;
@@ -75,16 +64,18 @@ html {
         background-size: cover; }
         html body #wrapper #section-2 .content {
           position: relative;
-          top: 200px;
+          top: 50%;
+          margin-top: -140px;
           width: 800px;
-          height: 400px; }
+          height: 280px; }
       html body #wrapper #section-3 {
         background: #024d61; }
         html body #wrapper #section-3 .content {
           position: relative;
-          top: 100px;
+          top: 50%;
+          margin-top: -270px;
           width: 800px;
-          height: 400px; }
+          height: 540px; }
           html body #wrapper #section-3 .content .title {
             color: whitesmoke; }
           html body #wrapper #section-3 .content .sub-title {
@@ -184,9 +175,10 @@ html {
             background-size: cover; }
       html body #wrapper #section-4 .content {
         position: relative;
-        top: 200px;
+        top: 50%;
+        margin-top: -130px;
         width: 800px;
-        height: 400px; }
+        height: 260px; }
         html body #wrapper #section-4 .content .title {
           color: whitesmoke; }
         html body #wrapper #section-4 .content .text {
