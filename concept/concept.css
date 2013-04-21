@@ -1,298 +1,222 @@
-::-webkit-input-placeholder {
-  color: whitesmoke; }
+/* css file for concept page */
+/*
+general
+*/
+p,a,h1,h2,h3,h4,h5{
+    padding:0;
+    margin:0;
+}
+pre ol, pre ul{
+  font-size: 12px;
+  line-height: 17px;
+}
+ul, ol, dl{
+  font-size: 14px;
+  line:height: 22px;
+  color:#024d61;
+}
 
-html {
-  margin: 0;
-  height: 100%; }
-  html body {
+
+/* layout */
+
+body {
     margin: 0;
     padding: 0;
-    font-family: HelveticaNeue;
-    background: whitesmoke;
-    height: 100%; }
-    html body #wrapper {
-      height: 100%; }
-      html body #wrapper .section {
-        height: 100%;
-        overflow: hidden; }
-        html body #wrapper .section .content {
-          width: 800px;
-          margin: 0 auto; }
-          html body #wrapper .section .content .title {
-            font-family: Play;
-            font-size: 60px;
-            color: #024d61; }
-          html body #wrapper .section .content .sub-title {
-            margin-left: 160px;
-            font-family: Play;
-            font-size: 30px;
-            color: #70939d; }
-          html body #wrapper .section .content .text {
-            margin-top: 30px;
-            margin-left: 50px;
-            color: #024d61;
-            font-size: 20px; }
-      html body #wrapper #section-1 {
-        background: #c2cfd2; }
-        html body #wrapper #section-1 .content {
-          position: relative;
-          top: 50%;
-          height: 460px;
-          margin-top: -230px; }
-          html body #wrapper #section-1 .content .left {
-            float: left;
-            width: 500px; }
-          html body #wrapper #section-1 .content .right {
-            float: right;
-            position: relative;
-            top: -70px; }
-        html body #wrapper #section-1 .dots {
-          position: absolute;
-          left: 50%;
-          margin-left: -10px;
-          bottom: 60px;
-          text-align: center;
-          width: 20px; }
-          html body #wrapper #section-1 .dots .dot {
-            margin-top: 10px;
-            width: 20px;
-            height: 20px;
-            background: #024d61;
-            -webkit-border-radius: 10px; }
-      html body #wrapper #section-2 {
-        background: url("img/bg2.jpg") fixed;
-        background-size: cover; }
-        html body #wrapper #section-2 .content {
-          position: relative;
-          top: 50%;
-          margin-top: -140px;
-          width: 800px;
-          height: 280px; }
-      html body #wrapper #section-3 {
-        background: #024d61; }
-        html body #wrapper #section-3 .content {
-          position: relative;
-          top: 50%;
-          margin-top: -270px;
-          width: 800px;
-          height: 540px; }
-          html body #wrapper #section-3 .content .title {
-            color: whitesmoke; }
-          html body #wrapper #section-3 .content .sub-title {
-            width: 600px; }
-          html body #wrapper #section-3 .content .text {
-            color: whitesmoke; }
-          html body #wrapper #section-3 .content .canvas {
-            margin: 0 auto;
-            margin-top: 30px;
-            width: 500px;
-            height: 300px; }
-            html body #wrapper #section-3 .content .canvas .sq {
-              position: absolute;
-              width: 21px;
-              height: 17px;
-              background: whitesmoke;
-              opacity: 0.3; }
-            html body #wrapper #section-3 .content .canvas #sq-1 {
-              margin-left: 240px;
-              margin-top: 100px; }
-            html body #wrapper #section-3 .content .canvas #sq-2 {
-              margin-left: 220px;
-              margin-top: 80px; }
-            html body #wrapper #section-3 .content .canvas #sq-3 {
-              margin-left: 200px;
-              margin-top: 60px; }
-            html body #wrapper #section-3 .content .canvas #sq-4 {
-              margin-left: 175px;
-              margin-top: 80px; }
-            html body #wrapper #section-3 .content .canvas #sq-5 {
-              margin-left: 150px;
-              margin-top: 100px; }
-            html body #wrapper #section-3 .content .canvas #sq-6 {
-              margin-left: 155px;
-              margin-top: 120px; }
-            html body #wrapper #section-3 .content .canvas #sq-7 {
-              margin-left: 165px;
-              margin-top: 140px; }
-            html body #wrapper #section-3 .content .canvas #sq-8 {
-              margin-left: 180px;
-              margin-top: 160px; }
-            html body #wrapper #section-3 .content .canvas #sq-9 {
-              margin-left: 200px;
-              margin-top: 180px; }
-            html body #wrapper #section-3 .content .canvas #sq-10 {
-              margin-left: 220px;
-              margin-top: 200px; }
-            html body #wrapper #section-3 .content .canvas #sq-11 {
-              margin-left: 240px;
-              margin-top: 220px; }
-            html body #wrapper #section-3 .content .canvas #sq-12 {
-              margin-left: 260px;
-              margin-top: 200px; }
-            html body #wrapper #section-3 .content .canvas #sq-13 {
-              margin-left: 280px;
-              margin-top: 180px; }
-            html body #wrapper #section-3 .content .canvas #sq-14 {
-              margin-left: 300px;
-              margin-top: 160px; }
-            html body #wrapper #section-3 .content .canvas #sq-15 {
-              margin-left: 315px;
-              margin-top: 140px; }
-            html body #wrapper #section-3 .content .canvas #sq-16 {
-              margin-left: 325px;
-              margin-top: 120px; }
-            html body #wrapper #section-3 .content .canvas #sq-17 {
-              margin-left: 330px;
-              margin-top: 100px; }
-            html body #wrapper #section-3 .content .canvas #sq-18 {
-              margin-left: 305px;
-              margin-top: 80px; }
-            html body #wrapper #section-3 .content .canvas #sq-19 {
-              margin-left: 280px;
-              margin-top: 60px; }
-            html body #wrapper #section-3 .content .canvas #sq-20 {
-              margin-left: 260px;
-              margin-top: 80px; }
-      html body #wrapper #section-4 .bg-container {
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 100%; }
-        html body #wrapper #section-4 .bg-container .bg-list {
-          position: absolute;
-          width: 200%;
-          height: 100%; }
-          html body #wrapper #section-4 .bg-container .bg-list .bg {
-            width: 50%;
-            height: 100%; }
-          html body #wrapper #section-4 .bg-container .bg-list #bg-1 {
-            float: left;
-            background: url("img/bg4.jpg") fixed;
-            background-size: cover; }
-          html body #wrapper #section-4 .bg-container .bg-list #bg-2 {
-            float: right;
-            background: url("img/bg3.jpg") fixed;
-            background-size: cover; }
-      html body #wrapper #section-4 .content {
-        position: relative;
-        top: 50%;
-        margin-top: -130px;
-        width: 800px;
-        height: 260px; }
-        html body #wrapper #section-4 .content .title {
-          color: whitesmoke; }
-        html body #wrapper #section-4 .content .text {
-          color: whitesmoke; }
-      html body #wrapper #section-5 {
-        background: whitesmoke; }
-        html body #wrapper #section-5 .content {
-          width: 100%; }
-          html body #wrapper #section-5 .content .horizontal-bar {
-            position: absolute;
-            margin-top: 330px;
-            width: 100%;
-            height: 10px;
-            background: #024d61; }
-          html body #wrapper #section-5 .content .button-box {
-            position: absolute;
-            left: 30px;
-            margin-top: 189px;
-            height: 200px;
-            width: 100px; }
-            html body #wrapper #section-5 .content .button-box .bubble .box {
-              padding: 15px;
-              -webkit-border-radius: 6px;
-              background: #024d61; }
-              html body #wrapper #section-5 .content .button-box .bubble .box .item {
-                margin-top: 15px;
-                text-align: center;
-                color: whitesmoke;
-                cursor: pointer; }
-              html body #wrapper #section-5 .content .button-box .bubble .box .item:first-child {
-                margin-top: 0px; }
-            html body #wrapper #section-5 .content .button-box .bubble .caret {
-              position: relative;
-              top: -60px;
-              left: 20px;
-              float: right;
-              width: 0;
-              height: 0;
-              border-top: 20px solid transparent;
-              border-left: 20px solid #024d61;
-              border-bottom: 20px solid transparent; }
-            html body #wrapper #section-5 .content .button-box .link {
-              position: relative;
-              left: 45px;
-              width: 10px;
-              height: 60px;
-              background: #024d61; }
-            html body #wrapper #section-5 .content .button-box .radio-container .radio {
-              background: url("img/radio.png") no-repeat;
-              position: relative;
-              top: -29px;
-              left: 13px;
-              width: 72px;
-              height: 72px;
-              z-index: 1; }
-            html body #wrapper #section-5 .content .button-box .radio-container .mask {
-              position: relative;
-              top: -75px;
-              left: 15px;
-              width: 57px;
-              height: 12px;
-              background: whitesmoke; }
-          html body #wrapper #section-5 .content .inner {
-            position: relative;
-            margin: 0 auto;
-            top: 60px;
-            width: 817px;
-            height: 516px; }
-            html body #wrapper #section-5 .content .inner .bg-img {
-              position: absolute;
-              width: inherit;
-              height: inherit;
-              background: url("img/subscribe.png") no-repeat; }
-            html body #wrapper #section-5 .content .inner .intro {
-              position: absolute;
-              margin-top: 440px;
-              margin-left: -60px;
-              width: 400px;
-              font-family: Play;
-              color: #024d61; }
-              html body #wrapper #section-5 .content .inner .intro .brand-new {
-                font-size: 18px; }
-              html body #wrapper #section-5 .content .inner .intro .coming {
-                margin-top: 10px;
-                margin-left: 50px;
-                font-size: 40px; }
-            html body #wrapper #section-5 .content .inner .input-container {
-              position: absolute;
-              margin-top: 400px;
-              margin-left: 310px;
-              display: table-cell; }
-              html body #wrapper #section-5 .content .inner .input-container input {
-                float: left;
-                width: 250px;
-                color: whitesmoke;
-                font-size: 16px;
-                padding: 12px 20px;
-                background: rgba(107, 149, 161, 0.8);
-                text-align: right;
-                outline: none;
-                border: none; }
-              html body #wrapper #section-5 .content .inner .input-container .go {
-                position: relative;
-                left: 14px;
-                float: right;
-                padding: 7px;
-                background: #024d61; }
-                html body #wrapper #section-5 .content .inner .input-container .go .button {
-                  padding: 7px;
-                  padding-top: 10px;
-                  padding-bottom: 4px;
-                  color: #024d61;
-                  background: whitesmoke;
-                  cursor: pointer;
-                  -webkit-transition: color 0.3s; }
-                  html body #wrapper #section-5 .content .inner .input-container .go .button:hover {
-                    color: #ffa500; }
+    border: 0 none;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+}
+
+#header_wrap {
+    height: 89px;
+    background: #024d61 url(img/header.png) center no-repeat;
+}
+#header_wrap a{
+    text-decoration:none;
+}
+#header_wrap a:hover {
+    text-decoration:underline;
+}
+#header {
+    height: 89px;
+    width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#general_wrapper {
+  margin-top: 28px;
+  height: 288px;
+  background: #c2cfd2;
+}
+/*
+header
+*/
+
+h1#site_title {
+    height: 22px;
+    line-height: 22px;
+    font-size: 22px;
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    left: 0;
+    bottom: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+p#header_nav {
+    height: 14px;
+    width: 300px;
+    line-height: 22px;
+    font-size: 15px;
+    position: absolute;
+    color: #FFF;
+    font-weight: normal;
+    bottom: 16px;
+    right: 30px;
+    padding: 0;
+    margin: 0;
+    margin-right: -40px;
+}
+
+#header_nav a {
+    color:#FFF;
+    padding-left:10px;
+    padding-right:10px;
+}
+#header_wrap a{
+    text-decoration:none;
+    font-size: 13px;
+}
+#header_wrap a:hover {
+    text-decoration:underline;
+}
+
+#header #logo {
+    position: absolute;
+    width : 175px;
+    height : 20px;
+    background: url(img/logo.png) no-repeat;
+    left: 0;
+    bottom: 10px;
+}
+
+/* for General Concept */
+
+#general {
+  position: relative;
+  height: 288;
+  padding-top:35px;
+    margin:0px auto;
+    width: 870px;
+    height: 230px;
+}
+
+#general #intro {
+  width : 420px;
+}
+
+#general #gen_background {
+  height: 224px;
+  width: 610px;
+  background: url(img/general.png) no-repeat;
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+}
+
+
+#general h3 {
+  font-family: 'Play', sans-serif;
+  font-size: 50px;
+  color: #024d61;
+}
+#general h4 {
+  font-family: 'Play', sans-serif;
+  font-size: 30px;
+  margin-left: 90px;
+  color: #70939d;
+}
+#general p {
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+
+/* points */
+
+#points {
+  width: 900px;
+    margin:0px auto;
+}
+
+#points .feature_point {
+  margin-top: 60px;
+  position: relative;
+  height: 240px;
+}
+#points .feature_point h3 {
+  font-size: 30px;
+  font-family: 'Play', sans-serif;
+  color: #024d61;
+  margin-bottom: 5px;
+}
+#points .feature_point h5 {
+  font-size: 25px;
+  font-family: 'Play', sans-serif;
+  color: #8ea2a8;
+  margin-bottom: 25px;
+}
+#points .feature_point .text_l {
+  margin-top: 10px;
+  width : 560px;
+  float: left;
+}
+#points .feature_point .text_r {
+  margin-top: 10px;
+  width : 560px;
+  float: right;
+}
+
+#points .feature_point p {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+#points .feature_point .vline_l {
+  position: absolute;
+  height : 223px;
+  width: 2px;
+  top:10px;
+  left:  290px;
+  background: #024d61;
+}
+#points .feature_point .vline_r {
+  position: absolute;
+  height : 223px;
+  width: 2px;
+  top:10px;
+  left: 590px;
+  background: #024d61;
+}
+
+#points .feature_point .ill_pic_l {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 300px;
+  width: 300px;
+}
+
+#points .feature_point .ill_pic_r {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  height: 300px;
+  width: 300px;
+}
+
