@@ -165,7 +165,7 @@ p#header_nav {
     left: 270px;
     width: 2px;
     margin-top: -30px;
-    height: 1500px;
+    height: 2150px;
     background: #c2cfd2;
 }
 
@@ -211,6 +211,7 @@ p#header_nav {
 #peoples .person div.info {
     padding-top: 1px;
     margin-left: 270px;
+    margin-top: -30px;
 }
 #peoples .person .dy {
     margin-top: -19px;

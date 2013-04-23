@@ -9,27 +9,19 @@
             </div>
             <div id="f_nav">
                 <p>
-                    <a href="/team.html">About Us</a>
+                    <a href="/concept.html">Concept</a>
                     |
-                    <a href="mailto:postiles.hkust@gmail.com" target="_blank">Contact</a>
+                    <a href="/team.html">Team</a>
                     |
                     <a href="/">Blog</a>
                     |
-                    <a href="mailto:postiles.hkust@gmail.com" target="_blank">Jobs</a>
+                    <a href="/subscribe.html">Subscribe</a>
                     |
-                    <a href="mailto:postiles.hkust@gmail.com" target="_blank">Terms</a>
+                    <a href="mailto:postiles.admin@postiles.com" target="_blank">Contact Us</a>
                 </p>
             </div>
         </div>
         <div class="f_sns">
-                <!--<ul>
-                    <li class="f_twitter"><a href="#">twitter</a></li>
-                    <li class="f_google">google</li>
-                    <li class="f_rss">RSS</li>
-                    <li class="f_linkin">LINKIN</li>
-                    <li class="f_facebook">facebook</li>
-                </ul>
-                -->
         </div>
     </div><!-- end of footer -->
 </div><!-- end of footer_wrap -->

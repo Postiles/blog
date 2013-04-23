@@ -134,14 +134,12 @@ p#header_nav {
 }
 #general h4 {
   font-family: 'Play', sans-serif;
-  font-size: 30px;
-  margin-left: 90px;
-  color: #70939d;
+  font-size: 17px;
+  color: #024d61;
 }
 #general p {
   margin-top: 15px;
   font-size: 15px;
-  margin-left: 40px;
 }
 
 
